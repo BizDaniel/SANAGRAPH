@@ -1,0 +1,110 @@
+Log,attribute_name,missing_type,attribute_type,accuracy
+BPI12,Activity,EVEN,event,0.8482
+BPI12,org:resource,EVEN,event,0.6803
+BPI12,concept:name,EVEN,event,0.8378
+BPI12,lifecycle:transition,EVEN,event,0.9675
+BPI13,Activity,EVEN,event,0.6480
+BPI13,org:resource,EVEN,event,0.2896
+BPI13,impact,EVEN,event,1.
+BPI13,concept:name,EVEN,event,0.6947
+BPI13,lifecycle:transition,EVEN,event,0.6507
+BPI13,org:group,EVEN,event,0.9641
+BPI13,org:role,EVEN,event,0.8786
+BPI13,organization country,EVEN,event,0.9853
+BPI13,organization involved,EVEN,event,0.5403
+BPI13,product,EVEN,event,0.6420
+BPI13,resource country,EVEN,event,0.8872
+SP2020,Activity,EVEN,event,0.7616
+SP2020,REPAIR_IN_TIME_5D,EVEN,trace,1.
+SP2020,DEVICETYPE,EVEN,trace,0.9161
+SP2020,org:resource,EVEN,event,0.9969
+BPI20RFP,org:resource,EVEN,event,0.9991
+BPI20RFP,Activity,EVEN,event,0.9691
+BPI20RFP,org:role,EVEN,event,0.9897
+BPI20RFP,case:Project,EVEN,event,0.8971
+BPI20RFP,case:Task,EVEN,event,0.7549
+BPI20RFP,case:OrganizationalEntity,EVEN,event,0.9233
+BPI20RFP,case:Activity,EVEN,event,1.
+BPI20RFP,case:RfpNumber,EVEN,event,0.044
+BPI12,Activity,ODD,event,0.8785 
+BPI12,org:resource,ODD,event,0.6531
+BPI12,concept:name,ODD,event,0.870
+BPI12,lifecycle:transition,ODD,event,0.9754
+BPI13,Activity,ODD,event,0.5529
+BPI13,org:resource,ODD,event,0.3011
+BPI13,impact,ODD,event,1.
+BPI13,concept:name,ODD,event,0.6159
+BPI13,lifecycle:transition,ODD,event,0.4639
+BPI13,org:group,ODD,event,0.9627
+BPI13,org:role,ODD,event,0.8860
+BPI13,organization country,ODD,event,0.9869
+BPI13,organization involved,ODD,event,0.5352
+BPI13,product,ODD,event,0.6334
+BPI13,resource country,ODD,event,0.8905
+SP2020,Activity,ODD,event,0.7131
+SP2020,REPAIR_IN_TIME_5D,ODD,trace,1
+SP2020,DEVICETYPE,ODD,trace,0.9159
+SP2020,org:resource,ODD,event,0.9970
+BPI20RFP,org:resource,ODD,event,0.9989
+BPI20RFP,Activity,ODD,event,0.9714
+BPI20RFP,org:role,ODD,event,0.9900
+BPI20RFP,case:Project,ODD,event,0.8911
+BPI20RFP,case:Task,ODD,event,0.7511
+BPI20RFP,case:OrganizationalEntity,ODD,event,0.9174
+BPI20RFP,case:Activity,ODD,event,1.
+BPI20RFP,case:RfpNumber,ODD,event,0.0317
+BPI12,Activity,WINDOW,event,0.6981
+BPI12,org:resource,WINDOW,event,0.5945
+BPI12,concept:name,WINDOW,event,0.7956
+BPI12,lifecycle:transition,WINDOW,event,0.8877
+BPI13,Activity,WINDOW,event,0.5956
+BPI13,org:resource,WINDOW,event,0.2569
+BPI13,impact,WINDOW,event,1.
+BPI13,concept:name,WINDOW,event,0.7355
+BPI13,lifecycle:transition,WINDOW,event,0.6567
+BPI13,org:group,WINDOW,event,0.9593
+BPI13,org:role,WINDOW,event,0.8432
+BPI13,organization country,WINDOW,event,0.9866
+BPI13,organization involved,WINDOW,event,0.4923
+BPI13,product,WINDOW,event,0.6133
+BPI13,resource country,WINDOW,event,0.8528
+SP2020,Activity,WINDOW,event,0.6072
+SP2020,REPAIR_IN_TIME_5D,WINDOW,trace,1.
+SP2020,DEVICETYPE,WINDOW,trace,0.9101
+SP2020,org:resource,WINDOW,event,0.9970
+BPI20RFP,org:resource,WINDOW,event,0.9619
+BPI20RFP,Activity,WINDOW,event,0.9487
+BPI20RFP,org:role,WINDOW,event,0.9668
+BPI20RFP,case:Project,WINDOW,event,0.8901
+BPI20RFP,case:Task,WINDOW,event,0.7529
+BPI20RFP,case:OrganizationalEntity,WINDOW,event,0.9151
+BPI20RFP,case:Activity,WINDOW,event,1.
+BPI20RFP,case:RfpNumber,WINDOW,event,0.0399
+BPI12,Activity,RANDOM,event,0.5406
+BPI12,org:resource,RANDOM,event,0.5017
+BPI12,concept:name,RANDOM,event,0.6417
+BPI12,lifecycle:transition,RANDOM,event,0.8374
+BPI13,Activity,RANDOM,event,0.5344
+BPI13,org:resource,RANDOM,event,0.1809
+BPI13,impact,RANDOM,event,0.9268
+BPI13,concept:name,RANDOM,event,0.6874
+BPI13,lifecycle:transition,RANDOM,event,0.5921
+BPI13,org:group,RANDOM,event,0.8496
+BPI13,org:role,RANDOM,event,0.7524
+BPI13,organization country,RANDOM,event,0.9049
+BPI13,organization involved,RANDOM,event,0.3906
+BPI13,product,RANDOM,event,0.5101
+BPI13,resource country,RANDOM,event,0.8020
+SP2020,Activity,RANDOM,event,0.5091
+SP2020,REPAIR_IN_TIME_5D,RANDOM,trace,0.9569
+SP2020,DEVICETYPE,RANDOM,trace,0.7855
+SP2020,org:resource,RANDOM,event,0.9189
+BPI20RFP,org:resource,RANDOM,event,0.8293
+BPI20RFP,Activity,RANDOM,event,0.6903
+BPI20RFP,org:role,RANDOM,event,0.7469
+BPI20RFP,case:Project,RANDOM,event,0.7616
+BPI20RFP,case:Task,RANDOM,event,0.7526
+BPI20RFP,case:OrganizationalEntity,RANDOM,event,0.7897
+BPI20RFP,case:Activity,RANDOM,event,0.9607
+BPI20RFP,case:RfpNumber,RANDOM,event,0.0395
+
