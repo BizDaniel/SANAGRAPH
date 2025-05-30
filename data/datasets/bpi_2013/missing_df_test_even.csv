@@ -1,0 +1,1072 @@
+CaseID,Activity,Resource,CompleteTimestamp,concept:name,impact,lifecycle:transition,org:group,org:role,organization country,organization involved,product,resource country,CumTimeInterval
+1190,,,,,,,,,,,,,
+1190,Completed-Closed,Value 291,2012-04-11 21:36:11,Completed,Medium,Closed,Org line A2,A2_3,se,S21 2nd,PROD231,Sweden,197156789.0
+1191,,,,,,,,,,,,,
+1191,Completed-Closed,Value 13,2012-04-25 16:42:09,Completed,Low,Closed,Org line C,E_7,in,G157 2nd,PROD677,Sweden,198348747.0
+1192,,,,,,,,,,,,,
+1192,Completed-Closed,Value 512,2012-03-15 20:51:54,Completed,Low,Closed,Org line C,E_4,in,G93 2nd,PROD325,Brazil,194821332.0
+1193,,,,,,,,,,,,,
+1193,Accepted-In Progress,Value 166,2012-03-10 01:24:35,Accepted,Medium,In Progress,Org line C,E_1,se,G294 2nd,PROD834,Sweden,194319293.0
+1193,,,,,,,,,,,,,
+1193,Accepted-In Progress,Value 166,2012-05-03 16:33:48,Accepted,Medium,In Progress,Org line C,E_1,se,G294 2nd,PROD834,Sweden,199039446.0
+1193,,,,,,,,,,,,,
+1194,,,,,,,,,,,,,
+1194,Accepted-Assigned,Value 133,2012-03-08 18:26:18,Accepted,Medium,Assigned,Org line G4,,se,S33 2nd,PROD374,Sweden,194207796.0
+1194,,,,,,,,,,,,,
+1194,Completed-Closed,Value 133,2012-03-22 22:27:32,Completed,Medium,Closed,Org line G4,,se,S33 2nd,PROD374,Sweden,195431870.0
+1195,,,,,,,,,,,,,
+1195,Completed-Closed,Value 285,2012-03-22 23:54:52,Completed,Low,Closed,Org line A2,A2_3,se,S35 2nd,PROD368,Sweden,195437110.0
+1196,,,,,,,,,,,,,
+1196,Queued-Awaiting Assignment,Value 187,2012-03-08 19:27:40,Queued,Medium,Awaiting Assignment,Org line C,E_8,in,G186 2nd,PROD62,INDIA,194211478.0
+1196,,,,,,,,,,,,,
+1196,Accepted-Assigned,Value 480,2012-03-16 17:44:21,Accepted,Medium,Assigned,Org line C,E_8,in,G181 2nd,PROD62,INDIA,194896479.0
+1196,,,,,,,,,,,,,
+1196,Accepted-Wait,Value 152,2012-03-22 19:22:21,Accepted,Medium,Wait,Org line C,E_8,in,G181 2nd,PROD62,INDIA,195420759.0
+1196,,,,,,,,,,,,,
+1196,Queued-Awaiting Assignment,Value 187,2012-03-28 20:00:12,Queued,Medium,Awaiting Assignment,Org line C,E_8,in,G186 2nd,PROD62,INDIA,195941430.0
+1196,,,,,,,,,,,,,
+1196,Accepted-Assigned,Value 187,2012-03-28 20:01:03,Accepted,Medium,Assigned,Org line C,E_8,in,G186 2nd,PROD62,INDIA,195941481.0
+1196,,,,,,,,,,,,,
+1196,Accepted-Assigned,Value 206,2012-03-28 20:03:51,Accepted,Medium,Assigned,Org line C,E_8,in,G186 2nd,PROD62,Sweden,195941649.0
+1196,,,,,,,,,,,,,
+1196,Accepted-In Progress,Value 307,2012-05-10 01:42:40,Accepted,Medium,In Progress,Org line C,E_4,in,G87 2nd,PROD62,INDIA,199590778.0
+1196,,,,,,,,,,,,,
+1196,Completed-Closed,Value 482,2012-05-10 23:44:13,Completed,Medium,Closed,Org line C,E_4,in,G87 2nd,PROD62,Sweden,199670071.0
+1197,,,,,,,,,,,,,
+1197,Accepted-In Progress,Value 2,2012-05-03 16:16:50,Accepted,Medium,In Progress,Org line A2,A2_2,cn,M1 2nd,PROD681,Sweden,199038428.0
+1197,,,,,,,,,,,,,
+1198,,,,,,,,,,,,,
+1198,Completed-Closed,Value 402,2012-04-03 19:05:55,Completed,Low,Closed,Org line C,E_7,in,G162 2nd,PROD190,Belgium,196456573.0
+1199,,,,,,,,,,,,,
+1199,Completed-Closed,Value 501,2012-03-22 18:26:29,Completed,Low,Closed,Org line C,,jp,S22 2nd,PROD412,Japan,195417407.0
+1200,,,,,,,,,,,,,
+1200,Completed-Closed,Value 324,2012-04-03 17:22:25,Completed,Medium,Closed,Org line C,E_2,se,G57 2nd,PROD341,Sweden,196450363.0
+1201,,,,,,,,,,,,,
+1201,Accepted-Wait,Value 513,2012-03-12 21:24:43,Accepted,Low,Wait,Org line A2,D_1,kr,V17 3rd,PROD604,POLAND,194564101.0
+1201,,,,,,,,,,,,,
+1201,Accepted-In Progress,Value 513,2012-04-06 17:02:00,Accepted,Low,In Progress,Org line A2,D_1,kr,V17 3rd,PROD604,POLAND,196708338.0
+1201,,,,,,,,,,,,,
+1202,,,,,,,,,,,,,
+1202,Completed-Closed,Value 91,2012-05-23 22:46:18,Completed,High,Closed,Org line C,E_4,us,G88 2nd,PROD348,France,200789796.0
+1203,,,,,,,,,,,,,
+1203,Accepted-Wait,Value 514,2012-03-09 21:36:55,Accepted,Medium,Wait,Org line C,E_8,in,G119 2nd,PROD597,Sweden,194305633.0
+1203,,,,,,,,,,,,,
+1204,,,,,,,,,,,,,
+1204,Accepted-Wait,Value 307,2012-03-09 21:22:30,Accepted,Medium,Wait,Org line C,C_3,se,G95 3rd,PROD565,INDIA,194304768.0
+1204,,,,,,,,,,,,,
+1204,Accepted-In Progress,Value 343,2012-03-12 19:38:06,Accepted,Medium,In Progress,Org line C,C_3,se,G95 3rd,PROD565,Sweden,194557704.0
+1204,,,,,,,,,,,,,
+1205,,,,,,,,,,,,,
+1205,Queued-Awaiting Assignment,Value 387,2012-03-10 01:27:40,Queued,Medium,Awaiting Assignment,Org line C,E_10,se,G288 2nd,PROD659,Sweden,194319478.0
+1205,,,,,,,,,,,,,
+1205,Queued-Awaiting Assignment,Value 104,2012-03-10 01:56:35,Queued,Medium,Awaiting Assignment,Org line C,C_6,se,G290 3rd,PROD659,Sweden,194321213.0
+1205,,,,,,,,,,,,,
+1205,Completed-Closed,Value 516,2012-05-08 21:05:31,Completed,Medium,Closed,Org line C,C_6,se,G290 3rd,PROD659,France,199487749.0
+1206,,,,,,,,,,,,,
+1206,Completed-Closed,Value 228,2012-04-11 17:59:01,Completed,Major,Closed,Org line V2,,se,T2 2nd,PROD615,Sweden,197143759.0
+1207,,,,,,,,,,,,,
+1207,Accepted-Wait,Value 517,2012-03-19 12:56:02,Accepted,Major,Wait,Org line C,E_8,in,G119 2nd,PROD617,Korea,195138380.0
+1207,,,,,,,,,,,,,
+1208,,,,,,,,,,,,,
+1208,Completed-Closed,Value 43,2012-03-12 08:16:23,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,194516801.0
+1209,,,,,,,,,,,,,
+1209,Completed-Closed,Value 126,2012-03-14 03:23:55,Completed,Major,Closed,Org line A2,A2_3,se,U6 2nd,PROD153,Sweden,194672053.0
+1210,,,,,,,,,,,,,
+1210,Completed-Closed,Value 231,2012-04-25 21:06:39,Completed,Medium,Closed,Org line C,E_10,se,G285 2nd,PROD646,Belgium,198364617.0
+1211,,,,,,,,,,,,,
+1211,Queued-Awaiting Assignment,Value 77,2012-03-12 23:38:33,Queued,Medium,Awaiting Assignment,Org line C,E_6,se,M3 2nd,PROD346,Sweden,194572131.0
+1211,,,,,,,,,,,,,
+1211,Accepted-Assigned,Value 518,2012-03-26 16:04:48,Accepted,Medium,Assigned,Org line C,,se,S51 2nd,PROD346,Sweden,195754506.0
+1211,,,,,,,,,,,,,
+1211,Accepted-In Progress,Value 45,2012-03-28 20:59:16,Accepted,Medium,In Progress,Org line C,,se,S51 2nd,PROD346,Sweden,195944974.0
+1211,,,,,,,,,,,,,
+1211,Accepted-In Progress,Value 45,2012-03-28 21:00:05,Accepted,Medium,In Progress,Org line C,,se,S51 2nd,PROD346,Sweden,195945023.0
+1211,,,,,,,,,,,,,
+1211,Accepted-Assigned,Value 518,2012-03-28 21:00:51,Accepted,Medium,Assigned,Org line C,E_6,se,M3 2nd,PROD346,Sweden,195945069.0
+1211,,,,,,,,,,,,,
+1211,Completed-Closed,Value 518,2012-04-26 15:28:41,Completed,Medium,Closed,Org line C,E_6,se,M3 2nd,PROD346,Sweden,198430739.0
+1212,,,,,,,,,,,,,
+1212,Completed-Closed,Value 43,2012-03-12 22:01:20,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,194566298.0
+1213,,,,,,,,,,,,,
+1213,Completed-Closed,Value 434,2012-03-13 17:28:27,Completed,Low,Closed,Org line F,,se,G207 2nd,PROD454,Belgium,194636325.0
+1214,,,,,,,,,,,,,
+1214,Queued-Awaiting Assignment,Value 150,2012-03-13 19:05:43,Queued,High,Awaiting Assignment,Org line C,E_4,us,G88 2nd,PROD793,USA,194642161.0
+1214,,,,,,,,,,,,,
+1214,Queued-Awaiting Assignment,Value 150,2012-03-17 18:34:44,Queued,High,Awaiting Assignment,Org line C,E_4,us,G88 2nd,PROD793,USA,194985902.0
+1214,,,,,,,,,,,,,
+1214,Accepted-In Progress,Value 276,2012-03-19 12:43:04,Accepted,High,In Progress,Org line C,E_4,us,G88 2nd,PROD793,INDIA,195137602.0
+1214,,,,,,,,,,,,,
+1214,Completed-Closed,Value 276,2012-04-12 21:43:49,Completed,High,Closed,Org line C,E_4,us,G88 2nd,PROD793,INDIA,197243647.0
+1215,,,,,,,,,,,,,
+1215,Completed-Closed,Value 444,2012-04-04 18:27:58,Completed,Medium,Closed,Org line C,E_1,be,G128 2nd,PROD636,POLAND,196540696.0
+1216,,,,,,,,,,,,,
+1216,Queued-Awaiting Assignment,Value 519,2012-03-13 20:48:03,Queued,Medium,Awaiting Assignment,Org line C,V3_2,in,G41 2nd,PROD454,INDIA,194648301.0
+1216,,,,,,,,,,,,,
+1216,Completed-Closed,Value 519,2012-04-27 14:25:40,Completed,Medium,Closed,Org line C,V3_2,in,G41 2nd,PROD454,INDIA,198513358.0
+1217,,,,,,,,,,,,,
+1217,Accepted-In Progress,Value 520,2012-03-14 21:04:30,Accepted,Medium,In Progress,Org line A2,A2_5,in,A8 2nd,PROD327,Sweden,194735688.0
+1217,,,,,,,,,,,,,
+1217,Accepted-In Progress,Value 521,2012-03-14 22:13:40,Accepted,Medium,In Progress,Org line C,E_5,in,G75,PROD327,INDIA,194739838.0
+1217,,,,,,,,,,,,,
+1218,,,,,,,,,,,,,
+1218,Accepted-Wait,Value 494,2012-03-14 00:37:53,Accepted,Major,Wait,Org line C,E_10,jp,S51 2nd,PROD408,Japan,194662091.0
+1218,,,,,,,,,,,,,
+1219,,,,,,,,,,,,,
+1219,Completed-Closed,Value 126,2012-03-30 20:42:37,Completed,Major,Closed,Org line A2,A2_3,se,U6 2nd,PROD830,Sweden,196116775.0
+1220,,,,,,,,,,,,,
+1220,Completed-Closed,Value 522,2012-03-14 01:42:38,Completed,High,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,194665976.0
+1221,,,,,,,,,,,,,
+1221,Accepted-Wait,Value 276,2012-03-14 05:32:35,Accepted,High,Wait,Org line C,E_4,us,G88 2nd,PROD793,INDIA,194679773.0
+1221,,,,,,,,,,,,,
+1221,Accepted-In Progress,Value 276,2012-03-28 20:23:16,Accepted,High,In Progress,Org line C,E_4,us,G88 2nd,PROD793,INDIA,195942814.0
+1221,,,,,,,,,,,,,
+1222,,,,,,,,,,,,,
+1222,Completed-Closed,Value 43,2012-03-14 17:04:50,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,194721308.0
+1223,,,,,,,,,,,,,
+1223,Accepted-In Progress,Value 77,2012-04-03 22:42:42,Accepted,Low,In Progress,Org line C,C_2,be,G58 3rd,PROD327,Sweden,196469580.0
+1223,,,,,,,,,,,,,
+1224,,,,,,,,,,,,,
+1224,Completed-Closed,Value 289,2012-04-23 22:52:14,Completed,Medium,Closed,Org line G4,,se,S33 2nd,PROD448,Sweden,198198152.0
+1225,,,,,,,,,,,,,
+1225,Completed-Closed,Value 367,2012-03-16 18:40:39,Completed,Low,Closed,Org line C,E_1,us,G13 2nd,PROD398,Sweden,194899857.0
+1226,,,,,,,,,,,,,
+1226,Queued-Awaiting Assignment,Value 229,2012-03-14 23:20:07,Queued,High,Awaiting Assignment,Org line C,E_10,se,G271 2nd,PROD802,Sweden,194743825.0
+1226,,,,,,,,,,,,,
+1226,Accepted-Assigned,Value 523,2012-03-14 23:52:11,Accepted,High,Assigned,Org line C,E_10,se,G271 2nd,PROD802,Sweden,194745749.0
+1226,,,,,,,,,,,,,
+1226,Accepted-Assigned,Value 122,2012-03-15 23:41:16,Accepted,High,Assigned,Org line C,C_6,se,G273 3rd,PROD802,Sweden,194831494.0
+1226,,,,,,,,,,,,,
+1226,Accepted-In Progress,Value 128,2012-03-16 20:46:28,Accepted,High,In Progress,Org line C,C_6,se,G273 3rd,PROD802,Sweden,194907406.0
+1226,,,,,,,,,,,,,
+1226,Accepted-Wait,Value 231,2012-03-16 20:49:45,Accepted,High,Wait,Org line C,C_6,se,G273 3rd,PROD802,Sweden,194907603.0
+1226,,,,,,,,,,,,,
+1227,,,,,,,,,,,,,
+1227,Accepted-In Progress,Value 488,2012-03-14 21:35:08,Accepted,High,In Progress,Org line V7n,,nl,V32 2nd,PROD821,Netherlands,194737526.0
+1227,,,,,,,,,,,,,
+1227,Accepted-In Progress,Value 488,2012-03-14 21:54:03,Accepted,High,In Progress,Org line V7n,,nl,V32 2nd,PROD821,Netherlands,194738661.0
+1227,,,,,,,,,,,,,
+1228,,,,,,,,,,,,,
+1228,Completed-Closed,Value 395,2012-04-05 02:13:57,Completed,Medium,Closed,Org line A2,A2_3,se,G45 2nd,PROD711,Brazil,196568655.0
+1229,,,,,,,,,,,,,
+1229,Completed-Closed,Value 68,2012-03-16 18:45:58,Completed,Medium,Closed,Org line A2,A2_4,se,G118 2nd,PROD591,Sweden,194900176.0
+1230,,,,,,,,,,,,,
+1230,Queued-Awaiting Assignment,Value 126,2012-03-15 18:34:49,Queued,High,Awaiting Assignment,Org line A2,A2_3,se,U6 2nd,PROD802,Sweden,194813107.0
+1230,,,,,,,,,,,,,
+1230,Completed-Closed,Value 31,2012-03-28 20:38:51,Completed,High,Closed,Org line A2,A2_3,se,U6 2nd,PROD802,Sweden,195943749.0
+1231,,,,,,,,,,,,,
+1231,Accepted-In Progress,Value 311,2012-03-20 20:29:34,Accepted,Low,In Progress,Org line V2,,se,T2 2nd,PROD367,Sweden,195251992.0
+1231,,,,,,,,,,,,,
+1231,Accepted-In Progress,Value 311,2012-03-20 20:30:24,Accepted,Low,In Progress,Org line V2,,se,T2 2nd,PROD367,Sweden,195252042.0
+1231,,,,,,,,,,,,,
+1231,Accepted-In Progress,Value 311,2012-03-20 20:31:30,Accepted,Low,In Progress,Org line V2,,se,T2 2nd,PROD367,Sweden,195252108.0
+1231,,,,,,,,,,,,,
+1231,Completed-Closed,Value 311,2012-05-16 22:17:58,Completed,Low,Closed,Org line V2,,se,T4 2nd,PROD367,Sweden,200183296.0
+1232,,,,,,,,,,,,,
+1232,Queued-Awaiting Assignment,Value 44,2012-03-15 23:17:08,Queued,Major,Awaiting Assignment,Org line C,C_6,se,G273 3rd,PROD802,Sweden,194830046.0
+1232,,,,,,,,,,,,,
+1232,Accepted-Assigned,Value 44,2012-03-15 23:51:42,Accepted,Major,Assigned,Org line C,C_6,se,G273 3rd,PROD802,Sweden,194832120.0
+1232,,,,,,,,,,,,,
+1232,Completed-Closed,Value 44,2012-04-10 21:53:04,Completed,Major,Closed,Org line C,C_6,se,G273 3rd,PROD802,Sweden,197071402.0
+1233,,,,,,,,,,,,,
+1233,Completed-Closed,Value 87,2012-03-15 23:55:20,Completed,Medium,Closed,Org line C,E_10,in,G276 2nd,PROD698,Sweden,194832338.0
+1234,,,,,,,,,,,,,
+1234,Completed-Closed,Value 43,2012-03-16 01:37:07,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,194838445.0
+1235,,,,,,,,,,,,,
+1235,Completed-Closed,Value 31,2012-04-11 22:28:54,Completed,Medium,Closed,Org line G4,,se,S33 2nd,PROD448,Sweden,197159952.0
+1236,,,,,,,,,,,,,
+1236,Queued-Awaiting Assignment,Value 324,2012-03-16 17:34:29,Queued,Medium,Awaiting Assignment,Org line C,E_2,se,G57 2nd,PROD327,Sweden,194895887.0
+1236,,,,,,,,,,,,,
+1236,Accepted-Wait,Value 423,2012-03-21 17:41:37,Accepted,Medium,Wait,Org line C,E_2,se,G57 2nd,PROD327,Sweden,195328315.0
+1236,,,,,,,,,,,,,
+1236,Completed-Closed,Value 330,2012-03-22 01:04:24,Completed,Medium,Closed,Org line C,E_2,se,G57 2nd,PROD327,Belgium,195354882.0
+1237,,,,,,,,,,,,,
+1237,Accepted-Wait,Value 524,2012-03-16 16:49:23,Accepted,Low,Wait,Org line C,A2_1,be,D2,PROD235,Belgium,194893181.0
+1237,,,,,,,,,,,,,
+1238,,,,,,,,,,,,,
+1238,Accepted-Wait,Value 525,2012-03-16 17:25:02,Accepted,Medium,Wait,Org line C,E_3,us,G67 2nd,PROD151,Sweden,194895320.0
+1238,,,,,,,,,,,,,
+1239,,,,,,,,,,,,,
+1239,Accepted-Wait,Value 521,2012-03-16 17:53:10,Accepted,Medium,Wait,Org line C,E_5,in,G75,PROD327,INDIA,194897008.0
+1239,,,,,,,,,,,,,
+1240,,,,,,,,,,,,,
+1240,Completed-Closed,Value 2,2012-03-29 16:08:28,Completed,Low,Closed,Org line V2,,se,T3 2nd,PROD449,Sweden,196013926.0
+1241,,,,,,,,,,,,,
+1241,Completed-Closed,Value 165,2012-03-24 02:42:08,Completed,Medium,Closed,Org line C,V3_3,us,N22 2nd,PROD209,USA,195533546.0
+1242,,,,,,,,,,,,,
+1242,Accepted-Wait,Value 303,2012-03-18 00:33:29,Accepted,Medium,Wait,Org line C,E_5,in,G92,PROD793,INDIA,195007427.0
+1242,,,,,,,,,,,,,
+1242,Completed-Closed,Value 303,2012-04-26 18:56:05,Completed,Medium,Closed,Org line C,E_5,in,G92,PROD793,INDIA,198443183.0
+1243,,,,,,,,,,,,,
+1243,Queued-Awaiting Assignment,Value 526,2012-03-18 05:25:56,Queued,Major,Awaiting Assignment,Org line C,E_10,in,G209 2nd,PROD473,Sweden,195024974.0
+1243,,,,,,,,,,,,,
+1243,Completed-Closed,Value 493,2012-05-16 17:29:03,Completed,Major,Closed,Org line C,E_8,in,G186 2nd,PROD473,Sweden,200165961.0
+1244,,,,,,,,,,,,,
+1244,Queued-Awaiting Assignment,Value 39,2012-03-18 18:12:50,Queued,Medium,Awaiting Assignment,Org line C,C_3,se,G95 3rd,PROD325,Sweden,195070988.0
+1244,,,,,,,,,,,,,
+1244,Accepted-In Progress,Value 453,2012-03-18 18:14:01,Accepted,Medium,In Progress,Org line C,C_3,se,G211 3rd,PROD325,INDIA,195071059.0
+1244,,,,,,,,,,,,,
+1244,Accepted-In Progress,Value 453,2012-03-18 18:14:54,Accepted,Medium,In Progress,Org line C,C_3,se,G211 3rd,PROD325,INDIA,195071112.0
+1244,,,,,,,,,,,,,
+1245,,,,,,,,,,,,,
+1245,Queued-Awaiting Assignment,Value 387,2012-03-20 19:51:53,Queued,Medium,Awaiting Assignment,Org line C,E_10,se,G288 2nd,PROD631,Sweden,195249731.0
+1245,,,,,,,,,,,,,
+1245,Queued-Awaiting Assignment,Value 229,2012-03-20 20:17:51,Queued,Medium,Awaiting Assignment,Org line C,E_10,se,G271 2nd,PROD631,Sweden,195251289.0
+1245,,,,,,,,,,,,,
+1245,Queued-Awaiting Assignment,Value 44,2012-03-20 20:24:06,Queued,Medium,Awaiting Assignment,Org line C,C_6,se,G273 3rd,PROD631,Sweden,195251664.0
+1245,,,,,,,,,,,,,
+1245,Accepted-Wait,Value 44,2012-03-28 21:52:47,Accepted,Medium,Wait,Org line C,C_6,se,G273 3rd,PROD631,Sweden,195948185.0
+1245,,,,,,,,,,,,,
+1246,,,,,,,,,,,,,
+1246,Completed-Closed,Value 114,2012-05-23 17:55:42,Completed,Major,Closed,Org line C,C_6,se,G268 3rd,PROD805,Sweden,200772360.0
+1247,,,,,,,,,,,,,
+1247,Queued-Awaiting Assignment,Value 337,2012-03-19 19:17:15,Queued,Medium,Awaiting Assignment,Org line C,E_7,in,G162 2nd,PROD473,INDIA,195161253.0
+1247,,,,,,,,,,,,,
+1247,Queued-Awaiting Assignment,Value 187,2012-03-19 19:39:58,Queued,Medium,Awaiting Assignment,Org line C,E_8,in,G186 2nd,PROD473,INDIA,195162616.0
+1247,,,,,,,,,,,,,
+1247,Queued-Awaiting Assignment,Value 337,2012-03-29 20:11:40,Queued,Medium,Awaiting Assignment,Org line C,E_7,in,G162 2nd,PROD473,INDIA,196028518.0
+1247,,,,,,,,,,,,,
+1247,Accepted-Assigned,Value 412,2012-03-30 16:45:35,Accepted,Medium,Assigned,Org line C,E_7,in,G165 2nd,PROD473,INDIA,196102553.0
+1247,,,,,,,,,,,,,
+1247,Accepted-In Progress,Value 479,2012-04-04 22:15:04,Accepted,Medium,In Progress,Org line C,E_8,in,G181 2nd,PROD473,Sweden,196554322.0
+1247,,,,,,,,,,,,,
+1247,Accepted-In Progress,Value 13,2012-04-06 00:46:00,Accepted,Medium,In Progress,Org line C,E_7,in,G157 2nd,PROD473,Sweden,196649778.0
+1247,,,,,,,,,,,,,
+1247,Completed-Closed,Value 13,2012-04-06 00:47:48,Completed,Medium,Closed,Org line C,E_7,in,G157 2nd,PROD473,Sweden,196649886.0
+1248,,,,,,,,,,,,,
+1248,Accepted-Wait,Value 528,2012-03-19 20:58:49,Accepted,Medium,Wait,Org line C,E_10,se,G138 2nd,PROD276,Sweden,195167347.0
+1248,,,,,,,,,,,,,
+1249,,,,,,,,,,,,,
+1249,Completed-Closed,Value 528,2012-03-19 21:33:56,Completed,Medium,Closed,Org line C,E_10,se,G138 2nd,PROD802,Sweden,195169454.0
+1250,,,,,,,,,,,,,
+1250,Completed-Closed,Value 529,2012-03-22 19:26:33,Completed,Medium,Closed,Org line G4,,se,S29 2nd,PROD527,Sweden,195421011.0
+1251,,,,,,,,,,,,,
+1251,Completed-Closed,Value 512,2012-03-29 01:26:13,Completed,Low,Closed,Org line C,E_4,in,G93 2nd,PROD279,Brazil,195960991.0
+1252,,,,,,,,,,,,,
+1252,Accepted-In Progress,Value 216,2012-05-03 23:13:37,Accepted,High,In Progress,Org line A2,A2_1,se,M19 2nd,PROD700,Sweden,199063435.0
+1252,,,,,,,,,,,,,
+1253,,,,,,,,,,,,,
+1253,Accepted-Wait,Value 42,2012-03-20 20:09:12,Accepted,Medium,Wait,Org line A2,A2_1,in,M22 2nd,PROD327,Sweden,195250770.0
+1253,,,,,,,,,,,,,
+1253,Accepted-In Progress,Value 155,2012-03-29 22:47:46,Accepted,Medium,In Progress,Org line A2,A2_1,in,M22 2nd,PROD327,POLAND,196037884.0
+1253,,,,,,,,,,,,,
+1253,Queued-Awaiting Assignment,Value 521,2012-03-30 16:55:19,Queued,Medium,Awaiting Assignment,Org line C,E_5,in,G75,PROD327,INDIA,196103137.0
+1253,,,,,,,,,,,,,
+1253,Completed-Closed,Value 521,2012-04-02 17:12:02,Completed,Medium,Closed,Org line C,E_5,in,G75,PROD327,INDIA,196363340.0
+1254,,,,,,,,,,,,,
+1254,Queued-Awaiting Assignment,Value 148,2012-03-20 19:39:46,Queued,High,Awaiting Assignment,Org line C,E_6,fr,W12 2nd,PROD190,France,195249004.0
+1254,,,,,,,,,,,,,
+1254,Completed-Closed,Value 148,2012-04-11 22:10:45,Completed,High,Closed,Org line C,E_6,fr,W12 2nd,PROD190,France,197158863.0
+1255,,,,,,,,,,,,,
+1255,Completed-Closed,Value 530,2012-05-23 21:47:27,Completed,Medium,Closed,Org line C,E_10,se,G140 2nd,PROD664,Sweden,200786265.0
+1256,,,,,,,,,,,,,
+1256,Completed-Closed,Value 76,2012-03-24 01:21:13,Completed,Major,Closed,Org line C,C_6,se,G278 3rd,PROD802,Sweden,195528691.0
+1257,,,,,,,,,,,,,
+1257,Queued-Awaiting Assignment,Value 511,2012-03-21 23:00:56,Queued,Medium,Awaiting Assignment,Org line A2,A2_2,in,G40,PROD424,Sweden,195347474.0
+1257,,,,,,,,,,,,,
+1257,Accepted-Assigned,Value 179,2012-03-30 19:00:48,Accepted,Medium,Assigned,Org line A2,A2_2,in,G40,PROD424,Sweden,196110666.0
+1257,,,,,,,,,,,,,
+1257,Accepted-In Progress,Value 71,2012-03-30 19:10:35,Accepted,Medium,In Progress,Org line B,E_10,in,G230 2nd,PROD424,INDIA,196111253.0
+1257,,,,,,,,,,,,,
+1257,Accepted-Assigned,Value 179,2012-04-12 16:19:39,Accepted,Medium,Assigned,Org line A2,A2_2,in,G40,PROD424,Sweden,197224197.0
+1257,,,,,,,,,,,,,
+1257,Accepted-In Progress,Value 57,2012-04-13 16:22:17,Accepted,Medium,In Progress,Org line A2,A2_2,in,G39 3rd,PROD424,Sweden,197310755.0
+1257,,,,,,,,,,,,,
+1257,Queued-Awaiting Assignment,Value 69,2012-04-17 00:30:31,Queued,Medium,Awaiting Assignment,Org line B,E_10,in,G230 2nd,PROD424,INDIA,197599249.0
+1257,,,,,,,,,,,,,
+1257,Accepted-In Progress,Value 76,2012-04-20 16:01:18,Accepted,Medium,In Progress,Org line A2,A2_2,in,G39 3rd,PROD424,Sweden,197914296.0
+1257,,,,,,,,,,,,,
+1257,Accepted-In Progress,Value 71,2012-04-20 17:00:46,Accepted,Medium,In Progress,Org line B,E_10,in,G230 2nd,PROD424,INDIA,197917864.0
+1257,,,,,,,,,,,,,
+1257,Accepted-In Progress,Value 71,2012-04-25 22:38:30,Accepted,Medium,In Progress,Org line B,E_10,in,G230 2nd,PROD424,INDIA,198370128.0
+1257,,,,,,,,,,,,,
+1258,,,,,,,,,,,,,
+1258,Accepted-Assigned,Value 62,2012-03-22 00:13:20,Accepted,Major,Assigned,Org line C,E_4,us,G88 2nd,PROD793,Sweden,195351818.0
+1258,,,,,,,,,,,,,
+1258,Completed-Closed,Value 62,2012-03-29 22:34:44,Completed,Major,Closed,Org line C,E_4,us,G88 2nd,PROD793,Sweden,196037102.0
+1258,,,,,,,,,,,,,
+1258,Completed-Closed,Value 62,2012-04-20 23:56:16,Completed,Major,Closed,Org line C,E_4,us,G88 2nd,PROD793,Sweden,197942794.0
+1259,,,,,,,,,,,,,
+1259,Queued-Awaiting Assignment,Value 166,2012-03-22 12:09:52,Queued,High,Awaiting Assignment,Org line C,E_1,se,G294 2nd,PROD790,Sweden,195394810.0
+1259,,,,,,,,,,,,,
+1259,Completed-Closed,Value 119,2012-03-23 00:17:20,Completed,High,Closed,Org line A2,A2_1,se,N19 2nd,PROD790,Sweden,195438458.0
+1260,,,,,,,,,,,,,
+1260,Queued-Awaiting Assignment,Value 358,2012-03-22 15:53:55,Queued,High,Awaiting Assignment,Org line C,E_1,us,G13 2nd,PROD398,USA,195408253.0
+1260,,,,,,,,,,,,,
+1260,Accepted-Wait,Value 220,2012-03-23 23:49:23,Accepted,High,Wait,Org line C,E_1,us,G13 2nd,PROD398,Belgium,195523181.0
+1260,,,,,,,,,,,,,
+1260,Accepted-Wait,Value 220,2012-03-30 16:32:53,Accepted,High,Wait,Org line C,E_1,us,G13 2nd,PROD398,Belgium,196101791.0
+1260,,,,,,,,,,,,,
+1261,,,,,,,,,,,,,
+1261,Completed-Closed,Value 403,2012-04-26 17:00:17,Completed,Medium,Closed,Org line G4,,se,M18 2nd,PROD78,Sweden,198436235.0
+1262,,,,,,,,,,,,,
+1262,Completed-Closed,Value 82,2012-04-15 20:58:11,Completed,Major,Closed,Org line C,V3_3,se,G101 2nd,PROD221,Sweden,197500109.0
+1263,,,,,,,,,,,,,
+1263,Accepted-Assigned,Value 478,2012-03-23 12:05:55,Accepted,Medium,Assigned,Org line A2,A2_1,pl,W16 3rd,PROD756,POLAND,195480973.0
+1263,,,,,,,,,,,,,
+1263,Accepted-Wait,Value 478,2012-03-28 19:23:39,Accepted,Medium,Wait,Org line A2,A2_1,pl,W16 3rd,PROD756,POLAND,195939237.0
+1263,,,,,,,,,,,,,
+1264,,,,,,,,,,,,,
+1264,Completed-Closed,Value 531,2012-03-23 18:16:35,Completed,Major,Closed,Org line C,E_4,us,G88 2nd,PROD219,Sweden,195503213.0
+1265,,,,,,,,,,,,,
+1265,Completed-Closed,Value 43,2012-03-23 18:55:52,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,195505570.0
+1266,,,,,,,,,,,,,
+1266,Completed-Closed,Value 204,2012-03-26 18:32:52,Completed,Low,Closed,Org line C,E_9,se,N12 2nd,PROD479,Sweden,195763390.0
+1267,,,,,,,,,,,,,
+1267,Completed-Closed,Value 43,2012-03-24 20:44:09,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,195598467.0
+1268,,,,,,,,,,,,,
+1268,Accepted-In Progress,Value 532,2012-03-26 11:45:45,Accepted,Low,In Progress,Org line C,E_1,be,G213 2nd,PROD715,Sweden,195738963.0
+1268,,,,,,,,,,,,,
+1269,,,,,,,,,,,,,
+1269,Completed-Closed,Value 532,2012-03-26 11:47:18,Completed,Major,Closed,Org line C,E_1,be,G213 2nd,PROD715,Sweden,195739056.0
+1270,,,,,,,,,,,,,
+1270,Completed-Closed,Value 114,2012-05-09 23:34:19,Completed,High,Closed,Org line C,C_6,se,G268 3rd,PROD802,Sweden,199583077.0
+1271,,,,,,,,,,,,,
+1271,Completed-Closed,Value 175,2012-05-09 20:54:38,Completed,Major,Closed,Org line C,E_8,in,G186 2nd,PROD474,INDIA,199573496.0
+1272,,,,,,,,,,,,,
+1272,Completed-Closed,Value 175,2012-05-09 20:53:42,Completed,Major,Closed,Org line C,E_8,in,G181 2nd,PROD474,INDIA,199573440.0
+1273,,,,,,,,,,,,,
+1273,Accepted-In Progress,Value 533,2012-03-26 21:19:01,Accepted,High,In Progress,Other,,se,V46 2nd,PROD805,Sweden,195773359.0
+1273,,,,,,,,,,,,,
+1273,Queued-Awaiting Assignment,Value 345,2012-03-26 21:37:13,Queued,High,Awaiting Assignment,Org line C,C_6,se,G268 3rd,PROD805,Sweden,195774451.0
+1273,,,,,,,,,,,,,
+1273,Completed-Closed,Value 45,2012-03-26 21:58:43,Completed,High,Closed,Org line C,C_6,se,G268 3rd,PROD805,Sweden,195775741.0
+1274,,,,,,,,,,,,,
+1274,Queued-Awaiting Assignment,Value 534,2012-04-02 18:55:28,Queued,Medium,Awaiting Assignment,Org line A2,A2_2,us,N12 2nd,PROD669,USA,196369546.0
+1274,,,,,,,,,,,,,
+1274,Completed-Closed,Value 535,2012-04-02 22:45:27,Completed,Medium,Closed,Org line A2,A2_2,us,N12 2nd,PROD669,USA,196383345.0
+1275,,,,,,,,,,,,,
+1275,Queued-Awaiting Assignment,Value 536,2012-04-02 18:57:28,Queued,Medium,Awaiting Assignment,Org line A2,A2_5,us,N30 2nd,PROD383,USA,196369666.0
+1275,,,,,,,,,,,,,
+1275,Queued-Awaiting Assignment,Value 536,2012-04-02 18:58:07,Queued,Medium,Awaiting Assignment,Org line A2,A2_5,us,N30 2nd,PROD383,USA,196369705.0
+1275,,,,,,,,,,,,,
+1275,Completed-Closed,Value 537,2012-04-11 03:39:40,Completed,Medium,Closed,Org line A2,A2_5,us,N30 2nd,PROD383,USA,197092198.0
+1276,,,,,,,,,,,,,
+1276,Queued-Awaiting Assignment,Value 538,2012-04-02 19:01:33,Queued,Medium,Awaiting Assignment,Org line C,E_6,se,M13 2nd,PROD383,Sweden,196369911.0
+1276,,,,,,,,,,,,,
+1276,Completed-Closed,Value 538,2012-04-25 21:15:38,Completed,Medium,Closed,Org line C,E_6,se,M3 2nd,PROD383,Sweden,198365156.0
+1277,,,,,,,,,,,,,
+1277,Accepted-In Progress,Value 13,2012-03-27 21:34:49,Accepted,Low,In Progress,Org line A2,A2_3,se,S35 2nd,PROD368,Sweden,195860707.0
+1277,,,,,,,,,,,,,
+1278,,,,,,,,,,,,,
+1278,Completed-Closed,Value 232,2012-03-27 22:39:06,Completed,Major,Closed,Org line C,C_5,se,G120 3rd,PROD597,Sweden,195864564.0
+1279,,,,,,,,,,,,,
+1279,Queued-Awaiting Assignment,Value 538,2012-04-02 19:07:40,Queued,Medium,Awaiting Assignment,Org line C,E_6,se,M13 2nd,PROD383,Sweden,196370278.0
+1279,,,,,,,,,,,,,
+1279,Completed-Closed,Value 538,2012-04-25 21:24:42,Completed,Medium,Closed,Org line C,E_6,se,M3 2nd,PROD383,Sweden,198365700.0
+1280,,,,,,,,,,,,,
+1280,Accepted-Wait,Value 204,2012-03-27 15:24:17,Accepted,Low,Wait,Org line C,E_9,se,N12 2nd,PROD277,Sweden,195838475.0
+1280,,,,,,,,,,,,,
+1281,,,,,,,,,,,,,
+1281,Accepted-In Progress,Value 303,2012-03-28 23:34:35,Accepted,Medium,In Progress,Org line C,E_5,se,G92,PROD815,INDIA,195954293.0
+1281,,,,,,,,,,,,,
+1281,Accepted-In Progress,Value 77,2012-03-29 16:59:32,Accepted,Medium,In Progress,Org line C,V3_2,se,N20,PROD815,Sweden,196016990.0
+1281,,,,,,,,,,,,,
+1281,Queued-Awaiting Assignment,Value 539,2012-03-29 17:02:48,Queued,Medium,Awaiting Assignment,Org line C,E_5,se,G92,PROD815,INDIA,196017186.0
+1281,,,,,,,,,,,,,
+1281,Queued-Awaiting Assignment,Value 118,2012-03-29 18:48:41,Queued,Medium,Awaiting Assignment,Org line C,C_3,se,G292 3rd,PROD815,France,196023539.0
+1281,,,,,,,,,,,,,
+1281,Queued-Awaiting Assignment,Value 118,2012-03-29 20:05:15,Queued,Medium,Awaiting Assignment,Org line C,C_3,se,G62 3rd,PROD815,France,196028133.0
+1281,,,,,,,,,,,,,
+1281,Completed-Closed,Value 108,2012-04-13 23:43:51,Completed,Medium,Closed,Org line C,C_3,se,G292 3rd,PROD815,Sweden,197337249.0
+1282,,,,,,,,,,,,,
+1282,Accepted-In Progress,Value 540,2012-03-29 19:17:30,Accepted,Medium,In Progress,Org line V4,,fr,V5 2nd,PROD424,France,196025268.0
+1282,,,,,,,,,,,,,
+1283,,,,,,,,,,,,,
+1283,Accepted-In Progress,Value 151,2012-05-11 05:03:08,Accepted,Medium,In Progress,Org line A2,A2_1,se,J2 2nd,PROD350,Sweden,199689206.0
+1283,,,,,,,,,,,,,
+1284,,,,,,,,,,,,,
+1284,Queued-Awaiting Assignment,Value 237,2012-03-27 23:18:11,Queued,Medium,Awaiting Assignment,Org line C,C_6,se,G144 3rd,PROD660,Sweden,195866909.0
+1284,,,,,,,,,,,,,
+1284,Completed-Closed,Value 237,2012-03-28 22:14:54,Completed,Medium,Closed,Org line C,C_6,se,G144 3rd,PROD660,Sweden,195949512.0
+1285,,,,,,,,,,,,,
+1285,Accepted-Wait,Value 541,2012-03-30 20:31:38,Accepted,Low,Wait,Org line A2,A2_3,se,G349 3rd,PROD750,Sweden,196116116.0
+1285,,,,,,,,,,,,,
+1286,,,,,,,,,,,,,
+1286,Queued-Awaiting Assignment,Value 337,2012-03-28 03:14:23,Queued,Medium,Awaiting Assignment,Org line C,E_7,in,G165 2nd,PROD671,INDIA,195881081.0
+1286,,,,,,,,,,,,,
+1286,Accepted-In Progress,Value 71,2012-03-30 19:09:42,Accepted,Medium,In Progress,Org line B,E_10,in,G230 2nd,PROD671,INDIA,196111200.0
+1286,,,,,,,,,,,,,
+1286,Accepted-In Progress,Value 412,2012-04-10 17:46:05,Accepted,Medium,In Progress,Org line C,E_7,in,G165 2nd,PROD671,INDIA,197056583.0
+1286,,,,,,,,,,,,,
+1286,Queued-Awaiting Assignment,Value 229,2012-05-09 13:09:41,Queued,Medium,Awaiting Assignment,Org line C,E_10,in,G271 2nd,PROD671,Sweden,199545599.0
+1286,,,,,,,,,,,,,
+1286,Queued-Awaiting Assignment,Value 337,2012-05-09 13:51:24,Queued,Medium,Awaiting Assignment,Org line C,E_7,in,G165 2nd,PROD671,INDIA,199548102.0
+1286,,,,,,,,,,,,,
+1286,Queued-Awaiting Assignment,Value 69,2012-05-09 21:39:11,Queued,Medium,Awaiting Assignment,Org line B,E_10,in,G230 2nd,PROD671,INDIA,199576169.0
+1286,,,,,,,,,,,,,
+1286,Accepted-Wait,Value 71,2012-05-10 10:33:05,Accepted,Medium,Wait,Org line B,E_10,in,G230 2nd,PROD671,INDIA,199622603.0
+1286,,,,,,,,,,,,,
+1286,Queued-Awaiting Assignment,Value 69,2012-05-10 14:22:45,Queued,Medium,Awaiting Assignment,Org line B,E_10,in,G230 2nd,PROD671,INDIA,199636383.0
+1286,,,,,,,,,,,,,
+1286,Completed-Closed,Value 71,2012-05-26 00:36:31,Completed,Medium,Closed,Org line B,E_10,in,G230 2nd,PROD671,INDIA,200969209.0
+1287,,,,,,,,,,,,,
+1287,Accepted-In Progress,Value 543,2012-04-28 15:16:46,Accepted,Major,In Progress,Org line C,,jp,S28 2nd,PROD348,Japan,198602824.0
+1287,,,,,,,,,,,,,
+1287,Completed-Closed,Value 543,2012-05-07 17:16:18,Completed,Major,Closed,Org line C,,jp,S28 2nd,PROD348,Japan,199387596.0
+1288,,,,,,,,,,,,,
+1288,Queued-Awaiting Assignment,Value 544,2012-04-02 19:33:13,Queued,Medium,Awaiting Assignment,Org line A2,A2_4,us,N28 2nd,PROD383,USA,196371811.0
+1288,,,,,,,,,,,,,
+1288,Completed-Closed,Value 544,2012-04-12 02:07:51,Completed,Medium,Closed,Org line A2,A2_4,us,N28 2nd,PROD383,USA,197173089.0
+1289,,,,,,,,,,,,,
+1289,Queued-Awaiting Assignment,Value 38,2012-04-02 19:35:25,Queued,Medium,Awaiting Assignment,Org line A2,A2_3,se,N22 2nd,PROD383,Sweden,196371943.0
+1289,,,,,,,,,,,,,
+1289,Completed-Closed,Value 38,2012-05-25 18:58:50,Completed,Medium,Closed,Org line A2,A2_3,se,N22 2nd,PROD383,Sweden,200948948.0
+1290,,,,,,,,,,,,,
+1290,Completed-Closed,Value 2,2012-04-09 03:36:26,Completed,Low,Closed,Org line V2,,se,T3 2nd,PROD688,Sweden,196919204.0
+1291,,,,,,,,,,,,,
+1291,Completed-Closed,Value 273,2012-05-09 15:56:41,Completed,Medium,Closed,Org line C,E_1,be,G55 2nd,PROD745,Sweden,199555619.0
+1292,,,,,,,,,,,,,
+1292,Accepted-In Progress,Value 391,2012-03-29 21:33:58,Accepted,High,In Progress,Org line C,E_3,se,G71 2nd,PROD715,Belgium,196033456.0
+1292,,,,,,,,,,,,,
+1293,,,,,,,,,,,,,
+1293,Queued-Awaiting Assignment,Value 229,2012-03-29 15:38:26,Queued,High,Awaiting Assignment,Org line C,E_10,se,G271 2nd,PROD802,Sweden,196012124.0
+1293,,,,,,,,,,,,,
+1293,Queued-Awaiting Assignment,Value 44,2012-03-29 16:38:10,Queued,High,Awaiting Assignment,Org line C,C_6,se,G273 3rd,PROD802,Sweden,196015708.0
+1293,,,,,,,,,,,,,
+1293,Accepted-Wait,Value 360,2012-04-20 22:46:23,Accepted,High,Wait,Org line C,C_6,se,G273 3rd,PROD802,Sweden,197938601.0
+1293,,,,,,,,,,,,,
+1294,,,,,,,,,,,,,
+1294,Accepted-Wait,Value 42,2012-03-29 16:22:32,Accepted,Medium,Wait,Org line A2,A2_1,se,M22 2nd,PROD327,Sweden,196014770.0
+1294,,,,,,,,,,,,,
+1294,Accepted-In Progress,Value 155,2012-03-29 22:48:03,Accepted,Medium,In Progress,Org line A2,A2_1,se,M22 2nd,PROD327,POLAND,196037901.0
+1294,,,,,,,,,,,,,
+1294,Completed-Closed,Value 155,2012-04-11 19:33:19,Completed,Medium,Closed,Org line A2,A2_1,se,M22 2nd,PROD327,POLAND,197149417.0
+1295,,,,,,,,,,,,,
+1295,Queued-Awaiting Assignment,Value 77,2012-03-29 18:09:15,Queued,High,Awaiting Assignment,Org line C,E_1,be,G55 2nd,PROD597,Belgium,196021173.0
+1295,,,,,,,,,,,,,
+1295,Accepted-In Progress,Value 119,2012-04-03 23:03:28,Accepted,High,In Progress,Org line C,E_1,be,G55 2nd,PROD597,Sweden,196470826.0
+1295,,,,,,,,,,,,,
+1295,Accepted-In Progress,Value 57,2012-04-04 16:47:26,Accepted,High,In Progress,Org line C,E_1,be,G55 2nd,PROD597,Sweden,196534664.0
+1295,,,,,,,,,,,,,
+1296,,,,,,,,,,,,,
+1296,Completed-Closed,Value 492,2012-03-29 17:39:26,Completed,Low,Closed,Org line V5,,fr,V28,PROD207,France,196019384.0
+1297,,,,,,,,,,,,,
+1297,Queued-Awaiting Assignment,Value 358,2012-03-30 00:46:13,Queued,Low,Awaiting Assignment,Org line C,E_1,us,G13 2nd,PROD398,USA,196044991.0
+1297,,,,,,,,,,,,,
+1297,Accepted-Assigned,Value 220,2012-05-18 06:30:41,Accepted,Low,Assigned,Org line C,E_1,us,G13 2nd,PROD398,Belgium,200299259.0
+1297,,,,,,,,,,,,,
+1297,Completed-Closed,Value 220,2012-05-25 16:43:31,Completed,Low,Closed,Org line C,E_1,us,G13 2nd,PROD398,Belgium,200940829.0
+1298,,,,,,,,,,,,,
+1298,Queued-Awaiting Assignment,Value 229,2012-03-29 23:49:03,Queued,High,Awaiting Assignment,Org line C,E_10,se,G271 2nd,PROD802,Sweden,196041561.0
+1298,,,,,,,,,,,,,
+1298,Accepted-In Progress,Value 104,2012-04-26 00:43:27,Accepted,High,In Progress,Org line C,C_6,se,G290 3rd,PROD802,Sweden,198377625.0
+1298,,,,,,,,,,,,,
+1298,Accepted-In Progress,Value 371,2012-04-27 15:58:36,Accepted,High,In Progress,Org line C,C_6,se,G273 3rd,PROD802,France,198518934.0
+1298,,,,,,,,,,,,,
+1299,,,,,,,,,,,,,
+1299,Completed-Closed,Value 403,2012-03-30 18:49:09,Completed,Low,Closed,Org line G4,,se,M18 2nd,PROD32,Sweden,196109967.0
+1300,,,,,,,,,,,,,
+1300,Completed-Closed,Value 360,2012-03-30 21:37:12,Completed,Low,Closed,Org line C,C_6,se,G273 3rd,PROD802,Sweden,196120050.0
+1301,,,,,,,,,,,,,
+1301,Completed-Closed,Value 545,2012-05-29 21:08:24,Completed,Medium,Closed,Org line A2,A2_2,pl,G132,PROD653,POLAND,201302322.0
+1302,,,,,,,,,,,,,
+1302,Accepted-Wait,Value 197,2012-04-26 11:54:31,Accepted,Medium,Wait,Org line A2,A2_1,se,J2 2nd,PROD350,China,198417889.0
+1302,,,,,,,,,,,,,
+1303,,,,,,,,,,,,,
+1303,Completed-Closed,Value 285,2012-04-11 17:26:26,Completed,Low,Closed,Org line A2,A2_3,se,S35 2nd,PROD551,Sweden,197141804.0
+1304,,,,,,,,,,,,,
+1304,Completed-Closed,Value 516,2012-05-14 17:06:59,Completed,Medium,Closed,Org line C,E_6,fr,V52,PROD698,France,199991837.0
+1305,,,,,,,,,,,,,
+1305,Completed-Closed,Value 249,2012-05-21 23:44:28,Completed,Low,Closed,Org line C,E_4,in,G93 2nd,PROD325,INDIA,200620486.0
+1306,,,,,,,,,,,,,
+1306,Accepted-In Progress,Value 172,2012-05-24 01:37:42,Accepted,Medium,In Progress,Org line A2,A2_1,pl,W9 2nd,PROD756,POLAND,200800080.0
+1306,,,,,,,,,,,,,
+1307,,,,,,,,,,,,,
+1307,Accepted-In Progress,Value 330,2012-04-02 21:27:42,Accepted,Low,In Progress,Org line C,E_2,se,G57 2nd,PROD330,Belgium,196378680.0
+1307,,,,,,,,,,,,,
+1308,,,,,,,,,,,,,
+1308,Completed-Closed,Value 43,2012-04-16 20:31:18,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,197584896.0
+1309,,,,,,,,,,,,,
+1309,Completed-Closed,Value 164,2012-05-09 20:51:26,Completed,High,Closed,Org line G4,,se,S33 2nd,PROD397,Sweden,199573304.0
+1310,,,,,,,,,,,,,
+1310,Accepted-In Progress,Value 388,2012-04-06 22:10:37,Accepted,Medium,In Progress,Org line A2,A2_4,be,G7 3rd,PROD765,Belgium,196726855.0
+1310,,,,,,,,,,,,,
+1311,,,,,,,,,,,,,
+1311,Completed-Closed,Value 385,2012-05-07 16:18:00,Completed,Medium,Closed,Org line A2,A2_5,se,A10,PROD320,Sweden,199384098.0
+1312,,,,,,,,,,,,,
+1312,Completed-Closed,Value 119,2012-05-02 22:23:07,Completed,Major,Closed,Org line C,E_1,be,G55 2nd,PROD745,Sweden,198974005.0
+1313,,,,,,,,,,,,,
+1313,Accepted-In Progress,Value 150,2012-04-03 02:19:30,Accepted,Low,In Progress,Org line C,E_4,in,G88 2nd,PROD802,USA,196396188.0
+1313,,,,,,,,,,,,,
+1313,Queued-Awaiting Assignment,Value 86,2012-04-05 00:03:53,Queued,Low,Awaiting Assignment,Org line C,E_10,in,G263 2nd,PROD802,Sweden,196560851.0
+1313,,,,,,,,,,,,,
+1313,Queued-Awaiting Assignment,Value 150,2012-04-10 20:43:12,Queued,Low,Awaiting Assignment,Org line C,E_4,in,G88 2nd,PROD802,USA,197067210.0
+1313,,,,,,,,,,,,,
+1313,Queued-Awaiting Assignment,Value 86,2012-04-18 06:37:25,Queued,Low,Awaiting Assignment,Org line C,E_10,in,G263 2nd,PROD802,Sweden,197707663.0
+1313,,,,,,,,,,,,,
+1313,Accepted-In Progress,Value 356,2012-04-18 17:20:11,Accepted,Low,In Progress,Org line C,E_10,in,G263 2nd,PROD802,Sweden,197746229.0
+1313,,,,,,,,,,,,,
+1313,Accepted-Wait,Value 355,2012-05-18 00:01:19,Accepted,Low,Wait,Org line C,E_10,in,G263 2nd,PROD802,Sweden,200275897.0
+1313,,,,,,,,,,,,,
+1314,,,,,,,,,,,,,
+1314,Accepted-Wait,Value 521,2012-04-03 18:01:40,Accepted,Medium,Wait,Org line C,E_5,in,G75,PROD327,INDIA,196452718.0
+1314,,,,,,,,,,,,,
+1315,,,,,,,,,,,,,
+1315,Queued-Awaiting Assignment,Value 156,2012-04-03 18:25:10,Queued,Medium,Awaiting Assignment,Org line C,E_8,in,G181 2nd,PROD62,INDIA,196454128.0
+1315,,,,,,,,,,,,,
+1315,Accepted-Assigned,Value 206,2012-04-03 18:51:47,Accepted,Medium,Assigned,Org line C,E_8,in,G181 2nd,PROD62,Sweden,196455725.0
+1315,,,,,,,,,,,,,
+1315,Accepted-In Progress,Value 482,2012-05-10 23:45:10,Accepted,Medium,In Progress,Org line C,E_4,in,G87 2nd,PROD62,Sweden,199670128.0
+1315,,,,,,,,,,,,,
+1316,,,,,,,,,,,,,
+1316,Completed-Closed,Value 70,2012-04-10 04:28:59,Completed,Medium,Closed,Org line B,E_10,in,G230 2nd,PROD424,INDIA,197008757.0
+1317,,,,,,,,,,,,,
+1317,Completed-Closed,Value 211,2012-05-04 20:46:53,Completed,Low,Closed,Org line G4,,se,S33 2nd,PROD374,Sweden,199141031.0
+1318,,,,,,,,,,,,,
+1318,Completed-Closed,Value 546,2012-05-09 20:03:49,Completed,Low,Closed,Org line A2,A2_3,se,M21 3rd,PROD729,Sweden,199570447.0
+1319,,,,,,,,,,,,,
+1319,Completed-Closed,Value 93,2012-04-12 20:33:01,Completed,Medium,Closed,Org line G4,,se,S28 2nd,PROD201,Sweden,197239399.0
+1320,,,,,,,,,,,,,
+1320,Queued-Awaiting Assignment,Value 2,2012-04-04 04:29:12,Queued,High,Awaiting Assignment,Other,,in,G172,PROD455,Czech Republic,196490370.0
+1320,,,,,,,,,,,,,
+1320,Completed-Closed,Value 339,2012-04-30 19:20:10,Completed,High,Closed,Org line C,E_4,in,G93 2nd,PROD455,INDIA,198790228.0
+1321,,,,,,,,,,,,,
+1321,Queued-Awaiting Assignment,Value 547,2012-04-04 06:32:40,Queued,High,Awaiting Assignment,Org line C,C_5,in,G120 3rd,PROD597,Sweden,196497778.0
+1321,,,,,,,,,,,,,
+1321,Queued-Awaiting Assignment,Value 187,2012-04-12 19:05:22,Queued,High,Awaiting Assignment,Org line C,E_8,in,G186 2nd,PROD597,INDIA,197234140.0
+1321,,,,,,,,,,,,,
+1321,Accepted-Assigned,Value 175,2012-04-19 22:09:15,Accepted,High,Assigned,Org line C,E_8,in,G181 2nd,PROD597,INDIA,197849973.0
+1321,,,,,,,,,,,,,
+1322,,,,,,,,,,,,,
+1322,Completed-Closed,Value 548,2012-04-06 17:03:36,Completed,High,Closed,Org line V7n,,nl,V37 2nd,PROD542,Netherlands,196708434.0
+1323,,,,,,,,,,,,,
+1323,Completed-Closed,Value 43,2012-04-04 18:38:40,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,196541338.0
+1324,,,,,,,,,,,,,
+1324,Accepted-Assigned,Value 325,2012-04-04 20:03:23,Accepted,High,Assigned,Org line C,C_5,se,G120 3rd,PROD597,INDIA,196546421.0
+1324,,,,,,,,,,,,,
+1324,Accepted-In Progress,Value 104,2012-05-09 23:47:25,Accepted,High,In Progress,Org line C,C_5,se,G120 3rd,PROD597,Sweden,199583863.0
+1324,,,,,,,,,,,,,
+1325,,,,,,,,,,,,,
+1325,Completed-Closed,Value 211,2012-04-18 16:08:02,Completed,Medium,Closed,Org line G4,,se,S33 2nd,PROD374,Sweden,197741900.0
+1326,,,,,,,,,,,,,
+1326,Completed-Closed,Value 43,2012-04-04 23:33:41,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,196559039.0
+1327,,,,,,,,,,,,,
+1327,Completed-Closed,Value 2,2012-04-09 03:33:23,Completed,Low,Closed,Org line V2,,se,T3 2nd,PROD688,Sweden,196919021.0
+1328,,,,,,,,,,,,,
+1328,Completed-Closed,Value 375,2012-05-24 18:17:19,Completed,Major,Closed,Org line C,E_4,us,G88 2nd,PROD348,Sweden,200860057.0
+1329,,,,,,,,,,,,,
+1329,Completed-Closed,Value 549,2012-04-05 19:24:21,Completed,Medium,Closed,Org line C,E_8,in,G119 2nd,PROD597,MALAYSIA,196630479.0
+1330,,,,,,,,,,,,,
+1330,Queued-Awaiting Assignment,Value 229,2012-04-05 20:37:38,Queued,High,Awaiting Assignment,Org line C,E_10,se,G271 2nd,PROD802,Sweden,196634876.0
+1330,,,,,,,,,,,,,
+1330,Accepted-Assigned,Value 550,2012-04-05 20:42:18,Accepted,High,Assigned,Org line C,E_10,se,G271 2nd,PROD802,Sweden,196635156.0
+1330,,,,,,,,,,,,,
+1330,Accepted-In Progress,Value 128,2012-04-18 00:51:02,Accepted,High,In Progress,Org line C,C_6,se,G273 3rd,PROD802,Sweden,197686880.0
+1330,,,,,,,,,,,,,
+1331,,,,,,,,,,,,,
+1331,Accepted-In Progress,Value 551,2012-04-13 16:30:26,Accepted,Medium,In Progress,Org line A2,A2_4,be,G304 2nd,PROD636,Belgium,197311244.0
+1331,,,,,,,,,,,,,
+1331,Accepted-In Progress,Value 551,2012-04-13 17:14:50,Accepted,Medium,In Progress,Org line A2,A2_4,be,G304 2nd,PROD636,Belgium,197313908.0
+1331,,,,,,,,,,,,,
+1331,Accepted-Assigned,Value 444,2012-04-13 17:15:56,Accepted,Medium,Assigned,Org line C,E_1,be,G128 2nd,PROD636,POLAND,197313974.0
+1331,,,,,,,,,,,,,
+1331,Completed-Closed,Value 444,2012-04-13 17:24:04,Completed,Medium,Closed,Org line C,E_1,be,G128 2nd,PROD636,POLAND,197314462.0
+1332,,,,,,,,,,,,,
+1332,Accepted-In Progress,Value 552,2012-04-10 00:58:40,Accepted,High,In Progress,Org line C,E_4,in,G93 2nd,PROD754,USA,196996138.0
+1332,,,,,,,,,,,,,
+1333,,,,,,,,,,,,,
+1333,Queued-Awaiting Assignment,Value 216,2012-04-06 03:53:26,Queued,Medium,Awaiting Assignment,Org line A2,A2_1,se,M19 2nd,PROD741,Sweden,196661024.0
+1333,,,,,,,,,,,,,
+1333,Accepted-In Progress,Value 216,2012-05-03 23:12:00,Accepted,Medium,In Progress,Org line A2,A2_1,se,M19 2nd,PROD741,Sweden,199063338.0
+1333,,,,,,,,,,,,,
+1334,,,,,,,,,,,,,
+1334,Completed-Closed,Value 553,2012-04-06 14:42:16,Completed,Major,Closed,Org line C,E_1,be,G213 2nd,PROD715,Sweden,196699954.0
+1335,,,,,,,,,,,,,
+1335,Completed-Closed,Value 84,2012-04-06 21:26:37,Completed,Medium,Closed,Org line A2,A2_2,fr,T13 2nd,PROD200,POLAND,196724215.0
+1336,,,,,,,,,,,,,
+1336,Queued-Awaiting Assignment,Value 229,2012-04-06 18:45:33,Queued,High,Awaiting Assignment,Org line C,E_10,fr,G271 2nd,PROD802,Sweden,196714551.0
+1336,,,,,,,,,,,,,
+1336,Accepted-Assigned,Value 554,2012-04-06 19:11:37,Accepted,High,Assigned,Org line C,E_10,fr,G271 2nd,PROD802,Sweden,196716115.0
+1336,,,,,,,,,,,,,
+1336,Accepted-In Progress,Value 555,2012-04-10 23:54:26,Accepted,High,In Progress,Org line C,C_6,fr,G273 3rd,PROD802,France,197078684.0
+1336,,,,,,,,,,,,,
+1336,Accepted-In Progress,Value 149,2012-04-16 18:18:09,Accepted,High,In Progress,Org line C,E_6,fr,V29 2nd,PROD802,France,197576907.0
+1336,,,,,,,,,,,,,
+1336,Accepted-In Progress,Value 283,2012-05-14 17:27:11,Accepted,High,In Progress,Org line C,V3_3,fr,V42 2nd,PROD802,France,199993049.0
+1336,,,,,,,,,,,,,
+1337,,,,,,,,,,,,,
+1337,Completed-Closed,Value 43,2012-04-07 08:38:14,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,196764512.0
+1338,,,,,,,,,,,,,
+1338,Completed-Closed,Value 43,2012-04-09 05:26:15,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,196925793.0
+1339,,,,,,,,,,,,,
+1339,Queued-Awaiting Assignment,Value 247,2012-04-09 15:39:47,Queued,Medium,Awaiting Assignment,Org line C,C_3,se,G211 3rd,PROD325,Sweden,196962605.0
+1339,,,,,,,,,,,,,
+1339,Completed-Closed,Value 453,2012-04-16 18:59:43,Completed,Medium,Closed,Org line C,C_3,se,G211 3rd,PROD325,INDIA,197579401.0
+1340,,,,,,,,,,,,,
+1340,Completed-Closed,Value 552,2012-04-10 01:22:22,Completed,Major,Closed,Org line C,E_4,in,G93 2nd,PROD251,USA,196997560.0
+1341,,,,,,,,,,,,,
+1341,Accepted-In Progress,Value 212,2012-05-16 06:33:02,Accepted,Major,In Progress,Org line B,E_6,br,S4 2nd,PROD436,Brazil,200126600.0
+1341,,,,,,,,,,,,,
+1342,,,,,,,,,,,,,
+1342,Completed-Closed,Value 43,2012-04-10 17:31:00,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,197055678.0
+1343,,,,,,,,,,,,,
+1343,Queued-Awaiting Assignment,Value 44,2012-04-10 20:44:34,Queued,High,Awaiting Assignment,Org line C,C_6,se,G273 3rd,PROD802,Sweden,197067292.0
+1343,,,,,,,,,,,,,
+1343,Completed-Closed,Value 360,2012-04-10 21:41:51,Completed,High,Closed,Org line C,C_6,se,G273 3rd,PROD802,Sweden,197070729.0
+1344,,,,,,,,,,,,,
+1344,Completed-Closed,Value 44,2012-04-10 21:18:10,Completed,Major,Closed,Org line C,C_6,se,G278 3rd,PROD632,Sweden,197069308.0
+1344,,,,,,,,,,,,,
+1344,Completed-Closed,Value 44,2012-04-23 21:37:54,Completed,Major,Closed,Org line C,C_6,se,G278 3rd,PROD632,Sweden,198193692.0
+1345,,,,,,,,,,,,,
+1345,Completed-Closed,Value 556,2012-05-11 18:03:56,Completed,Medium,Closed,Org line C,E_1,be,G128 2nd,PROD636,Belgium,199736054.0
+1346,,,,,,,,,,,,,
+1346,Completed-Closed,Value 444,2012-04-13 17:28:58,Completed,Medium,Closed,Org line C,E_1,be,G128 2nd,PROD636,POLAND,197314756.0
+1347,,,,,,,,,,,,,
+1347,Queued-Awaiting Assignment,Value 120,2012-04-11 00:54:09,Queued,Medium,Awaiting Assignment,Org line A2,A2_3,se,N23 2nd,PROD414,Sweden,197082267.0
+1347,,,,,,,,,,,,,
+1347,Completed-Closed,Value 557,2012-04-19 17:02:37,Completed,Medium,Closed,Org line A2,A2_3,se,N23 2nd,PROD414,Sweden,197831575.0
+1348,,,,,,,,,,,,,
+1348,Accepted-In Progress,Value 558,2012-04-11 15:40:27,Accepted,High,In Progress,Org line C,E_10,in,G288 2nd,PROD791,Sweden,197135445.0
+1348,,,,,,,,,,,,,
+1349,,,,,,,,,,,,,
+1349,Completed-Closed,Value 559,2012-05-14 23:33:15,Completed,Major,Closed,Org line C,V3_2,se,M9,PROD153,Sweden,200015013.0
+1349,,,,,,,,,,,,,
+1349,Queued-Awaiting Assignment,Value 559,2012-05-17 00:43:44,Queued,Major,Awaiting Assignment,Org line C,V3_2,se,M9,PROD153,Sweden,200192042.0
+1349,,,,,,,,,,,,,
+1349,Completed-Closed,Value 124,2012-05-18 14:26:25,Completed,Major,Closed,Org line C,V3_2,se,M9,PROD153,Sweden,200327803.0
+1350,,,,,,,,,,,,,
+1350,Queued-Awaiting Assignment,Value 42,2012-04-12 22:23:04,Queued,Medium,Awaiting Assignment,Org line A2,A2_1,se,M22 2nd,PROD327,Sweden,197246002.0
+1350,,,,,,,,,,,,,
+1350,Accepted-Wait,Value 155,2012-04-19 00:06:33,Accepted,Medium,Wait,Org line A2,A2_1,se,M22 2nd,PROD327,POLAND,197770611.0
+1350,,,,,,,,,,,,,
+1351,,,,,,,,,,,,,
+1351,Queued-Awaiting Assignment,Value 324,2012-04-12 22:40:06,Queued,Medium,Awaiting Assignment,Org line C,E_2,se,G57 2nd,PROD327,Sweden,197247024.0
+1351,,,,,,,,,,,,,
+1351,Completed-Closed,Value 423,2012-04-13 23:13:44,Completed,Medium,Closed,Org line C,E_2,se,G57 2nd,PROD327,Sweden,197335442.0
+1352,,,,,,,,,,,,,
+1352,Queued-Awaiting Assignment,Value 324,2012-04-12 23:17:17,Queued,Medium,Awaiting Assignment,Org line C,E_2,se,G57 2nd,PROD327,Sweden,197249255.0
+1352,,,,,,,,,,,,,
+1352,Completed-Closed,Value 423,2012-04-13 23:15:05,Completed,Medium,Closed,Org line C,E_2,se,G57 2nd,PROD327,Sweden,197335523.0
+1353,,,,,,,,,,,,,
+1353,Accepted-In Progress,Value 42,2012-05-21 19:37:20,Accepted,Medium,In Progress,Org line C,E_6,se,S20 2nd,PROD634,Sweden,200605658.0
+1353,,,,,,,,,,,,,
+1354,,,,,,,,,,,,,
+1354,Completed-Closed,Value 43,2012-04-13 19:32:34,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,197322172.0
+1355,,,,,,,,,,,,,
+1355,Completed-Closed,Value 444,2012-05-31 18:10:27,Completed,Medium,Closed,Org line A2,A2_2,pl,G217 3rd,PROD796,POLAND,201464445.0
+1356,,,,,,,,,,,,,
+1356,Completed-Closed,Value 43,2012-04-13 23:12:14,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,197335352.0
+1357,,,,,,,,,,,,,
+1357,Accepted-In Progress,Value 168,2012-04-24 22:36:45,Accepted,Medium,In Progress,Org line V11,,gb,V50 2nd,PROD158,United Kingdom,198283623.0
+1357,,,,,,,,,,,,,
+1358,,,,,,,,,,,,,
+1358,Accepted-Assigned,Value 508,2012-04-14 04:09:17,Accepted,High,Assigned,Org line C,,us,N6 2nd,PROD316,USA,197353175.0
+1358,,,,,,,,,,,,,
+1359,,,,,,,,,,,,,
+1359,Completed-Closed,Value 239,2012-04-19 19:58:02,Completed,Medium,Closed,Org line B,E_10,in,G238 2nd,PROD209,INDIA,197842100.0
+1360,,,,,,,,,,,,,
+1360,Completed-Closed,Value 410,2012-04-16 19:17:25,Completed,Major,Closed,Org line C,C_5,fr,V43 3rd,PROD609,France,197580463.0
+1361,,,,,,,,,,,,,
+1361,Accepted-Wait,Value 525,2012-04-16 17:22:03,Accepted,Medium,Wait,Org line C,E_3,us,G67 2nd,PROD151,Sweden,197573541.0
+1361,,,,,,,,,,,,,
+1362,,,,,,,,,,,,,
+1362,Queued-Awaiting Assignment,Value 156,2012-04-16 17:01:35,Queued,Medium,Awaiting Assignment,Org line C,E_8,in,G181 2nd,PROD476,INDIA,197572313.0
+1362,,,,,,,,,,,,,
+1362,Accepted-Wait,Value 560,2012-05-03 17:07:07,Accepted,Medium,Wait,Org line C,E_8,in,G181 2nd,PROD476,INDIA,199041445.0
+1362,,,,,,,,,,,,,
+1363,,,,,,,,,,,,,
+1363,Accepted-In Progress,Value 561,2012-04-20 23:05:40,Accepted,Medium,In Progress,Org line G4,,se,G51 2nd,PROD319,Sweden,197939758.0
+1363,,,,,,,,,,,,,
+1363,Accepted-In Progress,Value 561,2012-05-17 00:30:33,Accepted,Medium,In Progress,Org line G4,,se,G51 2nd,PROD319,Sweden,200191251.0
+1363,,,,,,,,,,,,,
+1363,Accepted-In Progress,Value 561,2012-05-17 00:32:48,Accepted,Medium,In Progress,Org line G4,,se,G51 2nd,PROD319,Sweden,200191386.0
+1363,,,,,,,,,,,,,
+1363,Accepted-In Progress,Value 561,2012-05-17 20:33:38,Accepted,Medium,In Progress,Org line G4,,se,G51 2nd,PROD319,Sweden,200263436.0
+1363,,,,,,,,,,,,,
+1364,,,,,,,,,,,,,
+1364,Completed-Closed,Value 43,2012-04-16 21:47:43,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,197589481.0
+1365,,,,,,,,,,,,,
+1365,Completed-Closed,Value 168,2012-04-24 22:30:27,Completed,Medium,Closed,Org line V11,,gb,V50 2nd,PROD161,United Kingdom,198283245.0
+1366,,,,,,,,,,,,,
+1366,Completed-Closed,Value 239,2012-05-16 12:48:11,Completed,High,Closed,Org line B,E_10,in,G238 2nd,PROD209,INDIA,200149109.0
+1367,,,,,,,,,,,,,
+1367,Queued-Awaiting Assignment,Value 562,2012-04-17 16:03:17,Queued,Medium,Awaiting Assignment,Org line G4,,se,O3 2nd,PROD483,Sweden,197655215.0
+1367,,,,,,,,,,,,,
+1367,Completed-Closed,Value 562,2012-04-25 22:49:11,Completed,Medium,Closed,Org line G4,,se,S50 3rd,PROD483,Sweden,198370769.0
+1368,,,,,,,,,,,,,
+1368,Completed-Closed,Value 123,2012-04-17 17:38:11,Completed,Medium,Closed,Org line C,E_1,se,G294 2nd,PROD401,Sweden,197660909.0
+1369,,,,,,,,,,,,,
+1369,Accepted-Wait,Value 478,2012-04-17 20:57:02,Accepted,Medium,Wait,Org line A2,A2_1,pl,W16 3rd,PROD761,POLAND,197672840.0
+1369,,,,,,,,,,,,,
+1369,Accepted-Wait,Value 478,2012-04-18 00:23:39,Accepted,Medium,Wait,Org line A2,A2_1,pl,W16 3rd,PROD761,POLAND,197685237.0
+1369,,,,,,,,,,,,,
+1369,Accepted-Wait,Value 478,2012-04-19 20:50:15,Accepted,Medium,Wait,Org line A2,A2_1,pl,W16 3rd,PROD761,POLAND,197845233.0
+1369,,,,,,,,,,,,,
+1370,,,,,,,,,,,,,
+1370,Completed-Closed,Value 43,2012-04-17 18:25:37,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,197663755.0
+1371,,,,,,,,,,,,,
+1371,Completed-Closed,Value 39,2012-05-23 22:39:52,Completed,Medium,Closed,Org line C,E_1,se,G99 2nd,PROD153,Sweden,200789410.0
+1372,,,,,,,,,,,,,
+1372,Completed-Closed,Value 560,2012-04-23 17:52:52,Completed,Major,Closed,Org line C,E_8,in,G181 2nd,PROD476,INDIA,198180190.0
+1373,,,,,,,,,,,,,
+1373,Completed-Closed,Value 209,2012-05-04 20:01:00,Completed,Medium,Closed,Org line C,C_1,be,G56 3rd,PROD744,Sweden,199138278.0
+1374,,,,,,,,,,,,,
+1374,Completed-Closed,Value 311,2012-05-23 21:31:30,Completed,Low,Closed,Org line C,E_10,se,G253 2nd,PROD683,Sweden,200785308.0
+1375,,,,,,,,,,,,,
+1375,Completed-Closed,Value 43,2012-04-18 21:24:14,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,197760872.0
+1376,,,,,,,,,,,,,
+1376,Completed-Closed,Value 43,2012-04-18 21:26:55,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,197761033.0
+1377,,,,,,,,,,,,,
+1377,Queued-Awaiting Assignment,Value 229,2012-04-19 05:00:28,Queued,High,Awaiting Assignment,Org line C,E_10,pl,G271 2nd,PROD802,Sweden,197788246.0
+1377,,,,,,,,,,,,,
+1377,Queued-Awaiting Assignment,Value 86,2012-04-19 06:45:24,Queued,High,Awaiting Assignment,Org line C,E_10,pl,G276 2nd,PROD802,Sweden,197794542.0
+1377,,,,,,,,,,,,,
+1377,Accepted-In Progress,Value 188,2012-04-26 00:54:42,Accepted,High,In Progress,Org line C,E_10,pl,G271 2nd,PROD802,Sweden,198378300.0
+1377,,,,,,,,,,,,,
+1377,Accepted-Assigned,Value 111,2012-05-07 21:13:40,Accepted,High,Assigned,Org line C,C_6,pl,G273 3rd,PROD802,USA,199401838.0
+1377,,,,,,,,,,,,,
+1377,Accepted-Assigned,Value 354,2012-05-07 23:26:17,Accepted,High,Assigned,Org line A2,A2_2,pl,N28 2nd,PROD802,POLAND,199409795.0
+1377,,,,,,,,,,,,,
+1377,Completed-Closed,Value 354,2012-05-08 17:19:49,Completed,High,Closed,Org line A2,A2_2,pl,N28 2nd,PROD802,POLAND,199474207.0
+1378,,,,,,,,,,,,,
+1378,Queued-Awaiting Assignment,Value 474,2012-04-19 14:58:07,Queued,Medium,Awaiting Assignment,Org line A2,A2_5,cn,N18 2nd,PROD789,China,197824105.0
+1378,,,,,,,,,,,,,
+1378,Completed-Closed,Value 474,2012-05-24 12:31:54,Completed,Medium,Closed,Org line A2,A2_5,cn,N18 2nd,PROD789,China,200839332.0
+1379,,,,,,,,,,,,,
+1379,Accepted-Wait,Value 308,2012-04-20 02:51:03,Accepted,High,Wait,Org line C,,us,N6 2nd,PROD181,USA,197866881.0
+1379,,,,,,,,,,,,,
+1380,,,,,,,,,,,,,
+1380,Accepted-In Progress,Value 77,2012-04-19 16:15:49,Accepted,Medium,In Progress,Org line C,E_5,be,G75,PROD821,Belgium,197828767.0
+1380,,,,,,,,,,,,,
+1380,Accepted-In Progress,Value 77,2012-04-19 16:16:24,Accepted,Medium,In Progress,Org line C,E_5,be,G74,PROD821,Belgium,197828802.0
+1380,,,,,,,,,,,,,
+1380,Accepted-Assigned,Value 119,2012-04-20 21:10:12,Accepted,Medium,Assigned,Org line C,E_1,be,G55 2nd,PROD821,Sweden,197932830.0
+1380,,,,,,,,,,,,,
+1380,Accepted-In Progress,Value 119,2012-05-09 18:50:00,Accepted,Medium,In Progress,Org line C,E_1,be,G55 2nd,PROD821,Sweden,199566018.0
+1380,,,,,,,,,,,,,
+1381,,,,,,,,,,,,,
+1381,Accepted-Wait,Value 31,2012-04-19 20:37:20,Accepted,Low,Wait,Org line C,C_6,se,G268 3rd,PROD805,Sweden,197844458.0
+1381,,,,,,,,,,,,,
+1382,,,,,,,,,,,,,
+1382,Completed-Closed,Value 253,2012-05-23 23:56:52,Completed,Medium,Closed,Org line A2,A2_1,pl,W16 3rd,PROD756,POLAND,200794030.0
+1383,,,,,,,,,,,,,
+1383,Accepted-Wait,Value 558,2012-05-07 22:41:58,Accepted,High,Wait,Org line C,E_10,in,G288 2nd,PROD154,Sweden,199407136.0
+1383,,,,,,,,,,,,,
+1384,,,,,,,,,,,,,
+1384,Accepted-Assigned,Value 81,2012-04-20 21:05:30,Accepted,Major,Assigned,Org line A2,D_1,se,G197 2nd,PROD617,Sweden,197932548.0
+1384,,,,,,,,,,,,,
+1384,Queued-Awaiting Assignment,Value 564,2012-04-20 22:01:19,Queued,Major,Awaiting Assignment,Org line A2,D_1,se,V16 3rd,PROD617,Korea,197935897.0
+1384,,,,,,,,,,,,,
+1384,Queued-Awaiting Assignment,Value 251,2012-04-23 14:24:33,Queued,Major,Awaiting Assignment,Org line A2,A2_3,se,V13 2nd,PROD617,Sweden,198167691.0
+1384,,,,,,,,,,,,,
+1384,Accepted-Assigned,Value 81,2012-05-09 20:15:37,Accepted,Major,Assigned,Org line A2,A2_3,se,V13 2nd,PROD617,Sweden,199571155.0
+1384,,,,,,,,,,,,,
+1384,Completed-Closed,Value 81,2012-05-30 16:44:57,Completed,Major,Closed,Org line A2,A2_3,se,V13 2nd,PROD617,Sweden,201372915.0
+1385,,,,,,,,,,,,,
+1385,Accepted-Assigned,Value 104,2012-04-23 22:57:50,Accepted,High,Assigned,Org line C,C_6,us,G290 3rd,PROD154,Sweden,198198488.0
+1385,,,,,,,,,,,,,
+1385,Accepted-In Progress,Value 508,2012-05-12 05:12:07,Accepted,High,In Progress,Org line C,,us,N6 2nd,PROD154,USA,199776145.0
+1385,,,,,,,,,,,,,
+1386,,,,,,,,,,,,,
+1386,Queued-Awaiting Assignment,Value 111,2012-04-21 01:26:35,Queued,High,Awaiting Assignment,Org line C,C_6,us,N55 3rd,PROD785,USA,197948213.0
+1386,,,,,,,,,,,,,
+1386,Completed-Closed,Value 111,2012-05-14 21:51:02,Completed,High,Closed,Org line C,C_6,us,N55 3rd,PROD785,USA,200008880.0
+1387,,,,,,,,,,,,,
+1387,Completed-Closed,Value 273,2012-04-21 00:47:59,Completed,High,Closed,Org line A2,A2_3,se,G349 3rd,PROD750,Sweden,197945897.0
+1388,,,,,,,,,,,,,
+1388,Completed-Closed,Value 566,2012-05-24 20:24:32,Completed,Major,Closed,Org line C,E_6,se,U2 2nd,PROD802,Sweden,200867690.0
+1389,,,,,,,,,,,,,
+1389,Completed-Closed,Value 567,2012-04-25 18:20:11,Completed,Major,Closed,Org line C,,jp,S29 2nd,PROD348,Japan,198354629.0
+1390,,,,,,,,,,,,,
+1390,Completed-Closed,Value 271,2012-05-18 19:11:18,Completed,Medium,Closed,Org line C,E_7,se,G153 2nd,PROD671,INDIA,200344896.0
+1391,,,,,,,,,,,,,
+1391,Completed-Closed,Value 68,2012-05-10 00:27:57,Completed,Medium,Closed,Org line A2,A2_4,se,G118 2nd,PROD591,Sweden,199586295.0
+1392,,,,,,,,,,,,,
+1392,Completed-Closed,Value 43,2012-04-23 23:59:57,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,198202215.0
+1393,,,,,,,,,,,,,
+1393,Completed-Closed,Value 433,2012-05-03 22:46:11,Completed,Medium,Closed,Org line C,E_1,be,G55 2nd,PROD227,Sweden,199061789.0
+1394,,,,,,,,,,,,,
+1394,Accepted-In Progress,Value 568,2012-04-24 08:08:35,Accepted,Major,In Progress,Org line C,E_10,in,G266 2nd,PROD805,Sweden,198231533.0
+1394,,,,,,,,,,,,,
+1395,,,,,,,,,,,,,
+1395,Queued-Awaiting Assignment,Value 345,2012-04-24 08:06:50,Queued,Major,Awaiting Assignment,Org line C,C_6,se,G268 3rd,PROD805,Sweden,198231428.0
+1395,,,,,,,,,,,,,
+1395,Completed-Closed,Value 45,2012-05-03 00:23:13,Completed,Major,Closed,Org line C,C_6,se,G268 3rd,PROD805,Sweden,198981211.0
+1396,,,,,,,,,,,,,
+1396,Completed-Closed,Value 43,2012-04-24 18:55:03,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,198270321.0
+1397,,,,,,,,,,,,,
+1397,Accepted-Wait,Value 332,2012-04-24 22:09:47,Accepted,Low,Wait,Org line C,E_10,in,G271 2nd,PROD802,Sweden,198282005.0
+1397,,,,,,,,,,,,,
+1398,,,,,,,,,,,,,
+1398,Completed-Closed,Value 273,2012-05-08 15:38:40,Completed,Major,Closed,Org line A2,A2_2,se,G28 3rd,PROD182,Sweden,199468138.0
+1399,,,,,,,,,,,,,
+1399,Completed-Closed,Value 373,2012-04-25 18:24:33,Completed,Medium,Closed,Org line C,E_8,in,G119 2nd,PROD597,Sweden,198354891.0
+1400,,,,,,,,,,,,,
+1400,Accepted-In Progress,Value 373,2012-04-25 18:23:14,Accepted,Medium,In Progress,Org line C,E_8,in,G119 2nd,PROD597,Sweden,198354812.0
+1400,,,,,,,,,,,,,
+1401,,,,,,,,,,,,,
+1401,Queued-Awaiting Assignment,Value 337,2012-04-26 00:01:56,Queued,High,Awaiting Assignment,Org line C,E_7,in,G162 2nd,PROD646,INDIA,198375134.0
+1401,,,,,,,,,,,,,
+1401,Accepted-In Progress,Value 79,2012-04-26 00:08:42,Accepted,High,In Progress,Org line C,E_7,in,G162 2nd,PROD646,INDIA,198375540.0
+1401,,,,,,,,,,,,,
+1401,Accepted-In Progress,Value 397,2012-05-22 21:24:08,Accepted,High,In Progress,Org line C,E_7,in,G162 2nd,PROD646,INDIA,200698466.0
+1401,,,,,,,,,,,,,
+1402,,,,,,,,,,,,,
+1402,Accepted-Wait,Value 523,2012-04-26 01:59:52,Accepted,Medium,Wait,Org line C,E_10,in,G271 2nd,PROD802,Sweden,198382210.0
+1402,,,,,,,,,,,,,
+1402,Completed-Closed,Value 523,2012-05-14 21:27:02,Completed,Medium,Closed,Org line C,E_10,in,G271 2nd,PROD802,Sweden,200007440.0
+1403,,,,,,,,,,,,,
+1403,Completed-Closed,Value 158,2012-05-14 20:16:48,Completed,Medium,Closed,Org line A2,A2_3,se,G362 3rd,PROD241,POLAND,200003226.0
+1404,,,,,,,,,,,,,
+1404,Accepted-In Progress,Value 367,2012-05-07 16:19:47,Accepted,High,In Progress,Org line C,E_1,us,G13 2nd,PROD398,Sweden,199384205.0
+1404,,,,,,,,,,,,,
+1405,,,,,,,,,,,,,
+1405,Completed-Closed,Value 308,2012-04-27 01:39:25,Completed,High,Closed,Org line C,,us,N6 2nd,PROD487,USA,198467383.0
+1406,,,,,,,,,,,,,
+1406,Accepted-In Progress,Value 71,2012-04-27 18:08:12,Accepted,High,In Progress,Org line B,E_10,se,G230 2nd,PROD424,INDIA,198526710.0
+1406,,,,,,,,,,,,,
+1406,Accepted-In Progress,Value 127,2012-04-30 23:09:45,Accepted,High,In Progress,Org line C,C_6,se,G250 3rd,PROD424,Sweden,198804003.0
+1406,,,,,,,,,,,,,
+1406,Accepted-In Progress,Value 2,2012-05-23 21:55:27,Accepted,High,In Progress,Org line C,C_6,se,G250 3rd,PROD424,Sweden,200786745.0
+1406,,,,,,,,,,,,,
+1407,,,,,,,,,,,,,
+1407,Queued-Awaiting Assignment,Value 86,2012-04-27 13:45:17,Queued,High,Awaiting Assignment,Org line C,E_10,in,G236 2nd,PROD471,Sweden,198510935.0
+1407,,,,,,,,,,,,,
+1407,Completed-Closed,Value 465,2012-04-27 20:44:06,Completed,High,Closed,Org line C,E_10,in,G236 2nd,PROD471,Sweden,198536064.0
+1408,,,,,,,,,,,,,
+1408,Completed-Closed,Value 43,2012-04-27 22:05:37,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,198540955.0
+1409,,,,,,,,,,,,,
+1409,Completed-Closed,Value 341,2012-05-08 22:02:28,Completed,Medium,Closed,Org line C,E_4,us,G88 2nd,PROD794,Sweden,199491166.0
+1410,,,,,,,,,,,,,
+1410,Accepted-Assigned,Value 4,2012-04-28 19:19:06,Accepted,Low,Assigned,Org line C,E_9,se,N12 2nd,PROD673,Sweden,198617364.0
+1410,,,,,,,,,,,,,
+1410,Completed-Closed,Value 4,2012-05-04 14:48:07,Completed,Low,Closed,Org line C,E_9,se,N12 2nd,PROD673,Sweden,199119505.0
+1411,,,,,,,,,,,,,
+1411,Completed-Closed,Value 43,2012-04-28 10:20:33,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,198585051.0
+1412,,,,,,,,,,,,,
+1412,Completed-Closed,Value 43,2012-04-28 10:48:03,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,198586701.0
+1413,,,,,,,,,,,,,
+1413,Accepted-Assigned,Value 570,2012-04-29 17:42:46,Accepted,Major,Assigned,Org line C,C_5,se,G120 3rd,PROD597,Sweden,198697984.0
+1413,,,,,,,,,,,,,
+1413,Accepted-In Progress,Value 570,2012-05-23 20:20:38,Accepted,Major,In Progress,Org line C,C_5,se,G120 3rd,PROD597,Sweden,200781056.0
+1413,,,,,,,,,,,,,
+1414,,,,,,,,,,,,,
+1414,Queued-Awaiting Assignment,Value 229,2012-04-30 12:31:22,Queued,High,Awaiting Assignment,Org line C,E_10,in,G271 2nd,PROD802,Sweden,198765700.0
+1414,,,,,,,,,,,,,
+1414,Queued-Awaiting Assignment,Value 44,2012-04-30 13:15:21,Queued,High,Awaiting Assignment,Org line C,C_6,in,G273 3rd,PROD802,Sweden,198768339.0
+1414,,,,,,,,,,,,,
+1414,Queued-Awaiting Assignment,Value 387,2012-04-30 17:34:14,Queued,High,Awaiting Assignment,Org line C,E_10,in,G288 2nd,PROD802,Sweden,198783872.0
+1414,,,,,,,,,,,,,
+1414,Queued-Awaiting Assignment,Value 104,2012-05-07 19:33:07,Queued,High,Awaiting Assignment,Org line C,C_6,in,G290 3rd,PROD802,Sweden,199395805.0
+1414,,,,,,,,,,,,,
+1414,Queued-Awaiting Assignment,Value 387,2012-05-07 20:14:50,Queued,High,Awaiting Assignment,Org line C,E_10,in,G288 2nd,PROD802,Sweden,199398308.0
+1414,,,,,,,,,,,,,
+1414,Accepted-In Progress,Value 558,2012-05-07 21:01:53,Accepted,High,In Progress,Org line C,E_10,in,G288 2nd,PROD802,Sweden,199401131.0
+1414,,,,,,,,,,,,,
+1415,,,,,,,,,,,,,
+1415,Queued-Awaiting Assignment,Value 229,2012-04-30 12:55:51,Queued,High,Awaiting Assignment,Org line C,E_10,in,G271 2nd,PROD802,Sweden,198767169.0
+1415,,,,,,,,,,,,,
+1415,Queued-Awaiting Assignment,Value 44,2012-04-30 13:13:34,Queued,High,Awaiting Assignment,Org line C,C_6,in,G273 3rd,PROD802,Sweden,198768232.0
+1415,,,,,,,,,,,,,
+1415,Queued-Awaiting Assignment,Value 387,2012-04-30 17:31:32,Queued,High,Awaiting Assignment,Org line C,E_10,in,G288 2nd,PROD802,Sweden,198783710.0
+1415,,,,,,,,,,,,,
+1415,Queued-Awaiting Assignment,Value 104,2012-05-07 19:35:33,Queued,High,Awaiting Assignment,Org line C,C_6,in,G290 3rd,PROD802,Sweden,199395951.0
+1415,,,,,,,,,,,,,
+1415,Queued-Awaiting Assignment,Value 387,2012-05-07 20:16:46,Queued,High,Awaiting Assignment,Org line C,E_10,in,G288 2nd,PROD802,Sweden,199398424.0
+1415,,,,,,,,,,,,,
+1415,Accepted-In Progress,Value 558,2012-05-07 21:01:26,Accepted,High,In Progress,Org line C,E_10,in,G288 2nd,PROD802,Sweden,199401104.0
+1415,,,,,,,,,,,,,
+1416,,,,,,,,,,,,,
+1416,Completed-Closed,Value 383,2012-05-28 17:20:49,Completed,Medium,Closed,Org line C,C_6,se,G269 3rd,PROD621,INDIA,201202267.0
+1417,,,,,,,,,,,,,
+1417,Completed-Closed,Value 251,2012-04-30 20:27:28,Completed,High,Closed,Org line G1,E_6,se,G358 2nd,PROD291,Sweden,198794266.0
+1418,,,,,,,,,,,,,
+1418,Accepted-In Progress,Value 573,2012-05-23 21:31:50,Accepted,High,In Progress,Org line A2,D_1,pl,W14 2nd,PROD782,POLAND,200785328.0
+1418,,,,,,,,,,,,,
+1419,,,,,,,,,,,,,
+1419,Accepted-In Progress,Value 515,2012-05-01 21:59:48,Accepted,High,In Progress,Org line C,E_10,se,G288 2nd,PROD488,Sweden,198886206.0
+1419,,,,,,,,,,,,,
+1419,Accepted-In Progress,Value 13,2012-05-02 18:10:57,Accepted,High,In Progress,Org line C,C_6,se,G290 3rd,PROD488,Sweden,198958875.0
+1419,,,,,,,,,,,,,
+1420,,,,,,,,,,,,,
+1420,Accepted-In Progress,Value 449,2012-05-03 00:57:39,Accepted,Major,In Progress,Org line C,C_1,fr,L57 3rd,PROD816,France,198983277.0
+1420,,,,,,,,,,,,,
+1420,Completed-Closed,Value 55,2012-05-26 01:42:22,Completed,Major,Closed,Org line C,V3_3,fr,V42 2nd,PROD816,France,200973160.0
+1421,,,,,,,,,,,,,
+1421,Accepted-Assigned,Value 380,2012-05-03 06:22:01,Accepted,Low,Assigned,Org line B,E_3,br,S12 2nd,PROD120,Brazil,199002739.0
+1421,,,,,,,,,,,,,
+1422,,,,,,,,,,,,,
+1422,Completed-Closed,Value 385,2012-05-07 16:19:38,Completed,Low,Closed,Org line A2,A2_5,se,A10,PROD461,Sweden,199384196.0
+1423,,,,,,,,,,,,,
+1423,Completed-Closed,Value 34,2012-05-03 23:34:02,Completed,High,Closed,Org line A2,A2_4,0,G11 2nd,PROD604,Belgium,199064660.0
+1424,,,,,,,,,,,,,
+1424,Queued-Awaiting Assignment,Value 129,2012-05-04 01:35:20,Queued,Major,Awaiting Assignment,Org line A2,A2_3,se,S21 2nd,PROD673,Sweden,199071938.0
+1424,,,,,,,,,,,,,
+1424,Accepted-In Progress,Value 77,2012-05-07 02:27:57,Accepted,Major,In Progress,Org line C,E_7,se,G134 2nd,PROD673,Sweden,199334295.0
+1424,,,,,,,,,,,,,
+1424,Queued-Awaiting Assignment,Value 229,2012-05-08 21:24:52,Queued,Major,Awaiting Assignment,Org line C,E_10,se,G271 2nd,PROD673,Sweden,199488910.0
+1424,,,,,,,,,,,,,
+1424,Accepted-In Progress,Value 360,2012-05-11 17:41:18,Accepted,Major,In Progress,Org line C,C_6,se,G273 3rd,PROD673,Sweden,199734696.0
+1424,,,,,,,,,,,,,
+1424,Accepted-In Progress,Value 360,2012-05-29 20:10:03,Accepted,Major,In Progress,Org line C,C_6,se,G273 3rd,PROD673,Sweden,201298821.0
+1424,,,,,,,,,,,,,
+1425,,,,,,,,,,,,,
+1425,Completed-Closed,Value 336,2012-05-07 17:12:12,Completed,Major,Closed,Org line C,E_4,us,G88 2nd,PROD348,China,199387350.0
+1426,,,,,,,,,,,,,
+1426,Completed-Closed,Value 237,2012-05-09 22:49:54,Completed,Major,Closed,Org line C,C_6,us,N55 3rd,PROD785,USA,199580412.0
+1427,,,,,,,,,,,,,
+1427,Accepted-Assigned,Value 62,2012-05-07 12:40:04,Accepted,High,Assigned,Org line A2,A2_3,se,S35 2nd,PROD368,Sweden,199371022.0
+1427,,,,,,,,,,,,,
+1427,Completed-Closed,Value 13,2012-05-11 19:30:49,Completed,High,Closed,Org line A2,A2_3,se,S35 2nd,PROD368,Sweden,199741267.0
+1428,,,,,,,,,,,,,
+1428,Completed-Closed,Value 574,2012-05-07 21:24:21,Completed,Major,Closed,Org line A2,A2_1,se,D7,PROD238,Sweden,199402479.0
+1429,,,,,,,,,,,,,
+1429,Completed-Closed,Value 77,2012-05-24 13:04:34,Completed,Major,Closed,Org line A2,A2_5,cn,N18 2nd,PROD789,China,200841292.0
+1430,,,,,,,,,,,,,
+1430,Completed-Closed,Value 219,2012-05-09 19:42:38,Completed,Low,Closed,Org line C,C_1,us,G14 3rd,PROD398,France,199569176.0
+1431,,,,,,,,,,,,,
+1431,Accepted-Wait,Value 345,2012-05-08 02:11:09,Accepted,High,Wait,Org line C,C_6,se,G268 3rd,PROD805,Sweden,199419687.0
+1431,,,,,,,,,,,,,
+1431,Accepted-In Progress,Value 345,2012-05-08 21:17:43,Accepted,High,In Progress,Org line C,C_6,se,G268 3rd,PROD805,Sweden,199488481.0
+1431,,,,,,,,,,,,,
+1431,Queued-Awaiting Assignment,Value 345,2012-05-08 23:53:55,Queued,High,Awaiting Assignment,Org line C,C_6,se,G268 3rd,PROD805,Sweden,199497853.0
+1431,,,,,,,,,,,,,
+1431,Completed-Closed,Value 45,2012-05-16 19:18:55,Completed,High,Closed,Org line C,C_6,se,G268 3rd,PROD805,Sweden,200172553.0
+1432,,,,,,,,,,,,,
+1432,Accepted-In Progress,Value 575,2012-05-08 20:58:31,Accepted,Low,In Progress,Org line C,E_10,in,G266 2nd,PROD805,Sweden,199487329.0
+1432,,,,,,,,,,,,,
+1432,Accepted-Wait,Value 575,2012-05-08 21:23:42,Accepted,Low,Wait,Org line C,E_10,in,G266 2nd,PROD805,Sweden,199488840.0
+1432,,,,,,,,,,,,,
+1432,Completed-Closed,Value 575,2012-05-09 00:29:59,Completed,Low,Closed,Org line C,E_10,in,G266 2nd,PROD805,Sweden,199500017.0
+1433,,,,,,,,,,,,,
+1433,Queued-Awaiting Assignment,Value 150,2012-05-08 02:02:48,Queued,High,Awaiting Assignment,Org line C,,us,N6 2nd,PROD378,USA,199419186.0
+1433,,,,,,,,,,,,,
+1433,Completed-Closed,Value 308,2012-05-24 22:46:48,Completed,High,Closed,Org line C,,us,N6 2nd,PROD378,USA,200876226.0
+1434,,,,,,,,,,,,,
+1434,Accepted-In Progress,Value 576,2012-05-08 20:07:03,Accepted,Major,In Progress,Org line C,E_5,in,G92,PROD794,INDIA,199484241.0
+1434,,,,,,,,,,,,,
+1435,,,,,,,,,,,,,
+1435,Queued-Awaiting Assignment,Value 150,2012-05-08 19:30:54,Queued,High,Awaiting Assignment,Org line C,E_4,us,G88 2nd,PROD793,USA,199482072.0
+1435,,,,,,,,,,,,,
+1435,Completed-Closed,Value 393,2012-05-22 23:12:41,Completed,High,Closed,Org line C,E_4,us,G88 2nd,PROD793,Sweden,200704979.0
+1436,,,,,,,,,,,,,
+1436,Accepted-Assigned,Value 88,2012-05-08 21:58:54,Accepted,High,Assigned,Org line G4,,se,S30 2nd,PROD802,Sweden,199490952.0
+1436,,,,,,,,,,,,,
+1436,Completed-Closed,Value 88,2012-05-17 17:35:01,Completed,High,Closed,Org line G4,,se,S30 2nd,PROD802,Sweden,200252719.0
+1437,,,,,,,,,,,,,
+1437,Completed-Closed,Value 43,2012-05-09 00:50:22,Completed,Low,Closed,Org line G3,,us,G199 3rd,PROD428,POLAND,199501240.0
+1438,,,,,,,,,,,,,
+1439,,,,,,,,,,,,,
+1439,Accepted-Assigned,Value 380,2012-05-10 02:46:34,Accepted,Medium,Assigned,Org line B,E_3,br,S12 2nd,PROD119,Brazil,199594612.0
+1439,,,,,,,,,,,,,
+1440,,,,,,,,,,,,,
+1440,Completed-Closed,Value 31,2012-05-31 23:19:08,Completed,Medium,Closed,Org line C,C_4,se,G155 3rd,PROD673,Sweden,201482966.0
+1441,,,,,,,,,,,,,
+1441,Completed-Closed,Value 228,2012-05-30 17:57:00,Completed,Medium,Closed,Org line V2,,se,T2 2nd,PROD631,Sweden,201377238.0
+1442,,,,,,,,,,,,,
+1442,Completed-Closed,Value 43,2012-05-11 19:35:47,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,199741565.0
+1443,,,,,,,,,,,,,
+1443,Completed-Closed,Value 577,2012-05-29 15:23:44,Completed,Medium,Closed,Org line A2,A2_4,se,G47 2nd,PROD243,Sweden,201281642.0
+1444,,,,,,,,,,,,,
+1444,Queued-Awaiting Assignment,Value 249,2012-05-13 09:56:10,Queued,High,Awaiting Assignment,Org line C,E_4,in,G93 2nd,PROD701,INDIA,199879588.0
+1444,,,,,,,,,,,,,
+1444,Completed-Closed,Value 119,2012-05-15 17:06:53,Completed,High,Closed,Org line C,E_4,in,G93 2nd,PROD701,Sweden,200078231.0
+1445,,,,,,,,,,,,,
+1445,Completed-Closed,Value 43,2012-05-14 00:30:04,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,199932022.0
+1446,,,,,,,,,,,,,
+1446,Completed-Closed,Value 43,2012-05-14 01:01:55,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,199933933.0
+1447,,,,,,,,,,,,,
+1447,Completed-Closed,Value 43,2012-05-14 19:28:52,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,200000350.0
+1448,,,,,,,,,,,,,
+1448,Completed-Closed,Value 387,2012-05-15 01:33:42,Completed,Medium,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,200022240.0
+1449,,,,,,,,,,,,,
+1449,Completed-Closed,Value 114,2012-05-21 18:48:01,Completed,Medium,Closed,Org line C,E_7,se,G161 2nd,PROD671,Sweden,200602699.0
+1450,,,,,,,,,,,,,
+1450,Completed-Closed,Value 43,2012-05-14 22:14:26,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,200010284.0
+1451,,,,,,,,,,,,,
+1451,Completed-Closed,Value 43,2012-05-14 22:56:34,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,200012812.0
+1452,,,,,,,,,,,,,
+1452,Completed-Closed,Value 515,2012-05-16 08:59:49,Completed,High,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,200135407.0
+1453,,,,,,,,,,,,,
+1453,Completed-Closed,Value 8,2012-05-31 05:12:43,Completed,High,Closed,Org line C,C_1,be,G56 3rd,PROD795,Sweden,201417781.0
+1454,,,,,,,,,,,,,
+1454,Completed-Closed,Value 43,2012-05-16 00:38:18,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,200105316.0
+1455,,,,,,,,,,,,,
+1455,Completed-Closed,Value 81,2012-05-31 21:34:39,Completed,Major,Closed,Org line A2,D_1,se,L45 3rd,PROD617,Sweden,201476697.0
+1456,,,,,,,,,,,,,
+1456,Completed-Closed,Value 578,2012-05-16 00:27:51,Completed,Major,Closed,Org line V5,,se,V20 2nd,PROD221,INDIA,200104689.0
+1457,,,,,,,,,,,,,
+1457,Completed-Closed,Value 515,2012-05-16 10:18:13,Completed,High,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,200140111.0
+1458,,,,,,,,,,,,,
+1458,Queued-Awaiting Assignment,Value 579,2012-05-16 18:05:16,Queued,High,Awaiting Assignment,Org line A2,,kr,S60 2nd,PROD221,Korea,200168134.0
+1458,,,,,,,,,,,,,
+1458,Accepted-Assigned,Value 579,2012-05-31 18:58:48,Accepted,High,Assigned,Org line A2,,kr,S60 2nd,PROD221,Korea,201467346.0
+1458,,,,,,,,,,,,,
+1459,,,,,,,,,,,,,
+1459,Completed-Closed,Value 387,2012-05-21 19:18:48,Completed,High,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,200604546.0
+1460,,,,,,,,,,,,,
+1460,Completed-Closed,Value 276,2012-05-22 19:19:21,Completed,High,Closed,Org line C,E_4,us,G88 2nd,PROD793,INDIA,200690979.0
+1461,,,,,,,,,,,,,
+1461,Completed-Closed,Value 43,2012-05-17 00:54:28,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,200192686.0
+1462,,,,,,,,,,,,,
+1462,Queued-Awaiting Assignment,Value 192,2012-05-16 22:25:43,Queued,Medium,Awaiting Assignment,Org line C,C_2,se,G58 3rd,PROD327,Belgium,200183761.0
+1462,,,,,,,,,,,,,
+1462,Accepted-Assigned,Value 330,2012-05-16 22:26:48,Accepted,Medium,Assigned,Org line C,E_2,se,G57 2nd,PROD327,Belgium,200183826.0
+1462,,,,,,,,,,,,,
+1462,Completed-Closed,Value 330,2012-05-22 21:26:12,Completed,Medium,Closed,Org line C,E_2,se,G57 2nd,PROD327,Belgium,200698590.0
+1463,,,,,,,,,,,,,
+1463,Completed-Closed,Value 43,2012-05-17 23:46:59,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,200275037.0
+1464,,,,,,,,,,,,,
+1464,Completed-Closed,Value 43,2012-05-17 23:30:49,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,200274067.0
+1465,,,,,,,,,,,,,
+1465,Completed-Closed,Value 43,2012-05-18 23:10:30,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,200359248.0
+1466,,,,,,,,,,,,,
+1466,Completed-Closed,Value 43,2012-05-18 19:32:34,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,200346172.0
+1467,,,,,,,,,,,,,
+1467,Completed-Closed,Value 43,2012-05-18 19:43:58,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD96,POLAND,200346856.0
+1468,,,,,,,,,,,,,
+1468,Completed-Closed,Value 580,2012-05-24 16:36:08,Completed,Low,Closed,Org line G4,,se,S32 2nd,PROD633,Sweden,200853986.0
+1469,,,,,,,,,,,,,
+1469,Completed-Closed,Value 390,2012-05-19 22:53:02,Completed,Low,Closed,Org line C,E_10,in,G276 2nd,PROD631,Sweden,200444600.0
+1470,,,,,,,,,,,,,
+1470,Queued-Awaiting Assignment,Value 2,2012-05-21 18:29:25,Queued,Medium,Awaiting Assignment,Org line C,C_6,se,G250 3rd,PROD434,Sweden,200601583.0
+1470,,,,,,,,,,,,,
+1470,Completed-Closed,Value 306,2012-05-23 16:56:40,Completed,Medium,Closed,Org line C,C_6,se,G250 3rd,PROD434,Sweden,200768818.0
+1471,,,,,,,,,,,,,
+1471,Completed-Closed,Value 375,2012-05-23 22:40:55,Completed,Medium,Closed,Org line C,E_1,us,G13 2nd,PROD460,Sweden,200789473.0
+1472,,,,,,,,,,,,,
+1472,Completed-Closed,Value 15,2012-05-31 16:38:22,Completed,High,Closed,Org line G4,,se,S28 2nd,PROD343,Sweden,201458920.0
+1473,,,,,,,,,,,,,
+1473,Completed-Closed,Value 522,2012-05-22 17:54:00,Completed,High,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,200685858.0
+1474,,,,,,,,,,,,,
+1474,Completed-Closed,Value 43,2012-05-22 19:03:02,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,200690000.0
+1475,,,,,,,,,,,,,
+1475,Completed-Closed,Value 43,2012-05-23 00:02:17,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,200707955.0
+1476,,,,,,,,,,,,,
+1476,Completed-Closed,Value 276,2012-05-29 13:43:36,Completed,High,Closed,Org line C,E_4,us,G88 2nd,PROD166,INDIA,201275634.0
+1477,,,,,,,,,,,,,
+1477,Queued-Awaiting Assignment,Value 272,2012-05-23 18:21:06,Queued,Medium,Awaiting Assignment,Org line V2,,se,T10 2nd,PROD334,Sweden,200773884.0
+1477,,,,,,,,,,,,,
+1477,Completed-Closed,Value 9,2012-05-28 22:36:00,Completed,Medium,Closed,Org line V2,,se,T2 2nd,PROD334,Sweden,201221178.0
+1478,,,,,,,,,,,,,
+1478,Completed-Closed,Value 43,2012-05-24 23:00:55,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD98,POLAND,200877073.0
+1479,,,,,,,,,,,,,
+1479,Accepted-Assigned,Value 81,2012-05-25 17:42:34,Accepted,Medium,Assigned,Org line V2,,se,T10 2nd,PROD615,Sweden,200944372.0
+1479,,,,,,,,,,,,,
+1479,Completed-Closed,Value 68,2012-05-30 18:17:28,Completed,Medium,Closed,Org line V2,,se,T10 2nd,PROD615,Sweden,201378466.0
+1480,,,,,,,,,,,,,
+1480,Completed-Closed,Value 572,2012-05-28 22:52:22,Completed,Major,Closed,Org line C,E_10,in,G288 2nd,PROD154,Sweden,201222160.0
+1481,,,,,,,,,,,,,
+1481,Completed-Closed,Value 581,2012-06-01 00:16:14,Completed,Major,Closed,Org line F,,se,G207 2nd,PROD186,Sweden,201486392.0
+1481,,,,,,,,,,,,,
+1481,Completed-Closed,Value 581,2012-06-01 06:48:05,Completed,Major,Closed,Org line F,,se,G207 2nd,PROD186,Sweden,201509903.0
+1481,,,,,,,,,,,,,
+1481,Accepted-Assigned,Value 582,2012-06-01 06:49:03,Accepted,Major,Assigned,Org line C,E_6,se,U2 2nd,PROD186,Sweden,201509961.0
+1481,,,,,,,,,,,,,
+1481,Completed-Closed,Value 581,2012-06-01 06:49:06,Completed,Major,Closed,Org line C,E_6,se,U2 2nd,PROD186,Sweden,201509964.0
+1482,,,,,,,,,,,,,
+1482,Completed-Closed,Value 43,2012-05-29 19:08:42,Completed,Medium,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,201295140.0
+1483,,,,,,,,,,,,,
+1483,Accepted-In Progress,Value 583,2012-05-30 05:06:41,Accepted,Major,In Progress,Org line C,E_8,in,G119 2nd,PROD597,USA,201331019.0
+1483,,,,,,,,,,,,,
+1484,,,,,,,,,,,,,
+1484,Accepted-In Progress,Value 31,2012-05-30 18:49:50,Accepted,High,In Progress,Org line V2,,se,T2 2nd,PROD493,Sweden,201380408.0
+1484,,,,,,,,,,,,,
+1484,Accepted-In Progress,Value 584,2012-05-30 22:15:25,Accepted,High,In Progress,Org line V2,,se,T2 2nd,PROD493,Sweden,201392743.0
+1484,,,,,,,,,,,,,
+1485,,,,,,,,,,,,,
+1485,Completed-Closed,Value 585,2012-05-30 22:04:30,Completed,Medium,Closed,Org line C,E_7,se,G161 2nd,PROD671,Sweden,201392088.0
+1486,,,,,,,,,,,,,
+1486,Completed-Closed,Value 4,2012-05-31 19:01:24,Completed,Major,Closed,Org line A2,A2_3,se,U6 2nd,PROD831,Sweden,201467502.0
+1487,Accepted-In Progress,Value 43,2012-06-01 03:07:59,Accepted,High,In Progress,Org line G3,,us,G199 3rd,PROD97,POLAND,201496697.0
+1487,Completed-Closed,Value 43,2012-06-01 03:09:21,Completed,High,Closed,Org line G3,,us,G199 3rd,PROD97,POLAND,201496779.0
