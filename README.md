@@ -7,7 +7,7 @@ The code was developed using `Python 3.12`.
 
 All libraries can be installed using the command 
 
-`pip install - req.txt`
+`pip install -r req.txt`
 
 ## Datasets
 
