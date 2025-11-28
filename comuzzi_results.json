@@ -1,0 +1,141 @@
+{
+    "bpi_2012_CZ": {
+        "odd" : {
+            "time:timestamp_mae": 0.003,
+            "Activity_acc" : 17.12 
+        },
+        "even" : {
+            "time:timestamp_mae": 0.004,
+            "Activity_acc" : 16.07 
+        },
+        "window" : {
+            "time:timestamp_mae": 0.004,
+            "Activity_acc" : 20.05 
+        },
+        "random" : {
+            "time:timestamp_mae": 0.005,
+            "Activity_acc" : 28.96
+        },
+        "attr_level" : {
+            "time:timestamp_mae": 0.006,
+            "Activity_acc" : 29.9 
+        }
+
+    },
+    "bpi_2013_CZ": {
+        "odd" : {
+            "time:timestamp_mae": 0.003,
+            "Activity_acc" : 64.65 
+        },
+        "even" : {
+            "time:timestamp_mae": 0.003,
+            "Activity_acc" : 34.15 
+        },
+        "window" : {
+            "time:timestamp_mae": 0.004,
+            "Activity_acc" : 66.18 
+        },
+        "random" : {
+            "time:timestamp_mae": 0.004,
+            "Activity_acc" : 76.01
+        },
+        "attr_level" : {
+            "time:timestamp_mae": 0.003,
+            "Activity_acc" : 71.48 
+        }
+
+    },
+    "large_log_CZ": {
+        "odd" : {
+            "time:timestamp_mae": 0.408,
+            "Activity_acc" : 37.29 
+        },
+        "even" : {
+            "time:timestamp_mae": 2.4166,
+            "Activity_acc" : 25 
+        },
+        "window" : {
+            "time:timestamp_mae": 0.471,
+            "Activity_acc" : 29.83 
+        },
+        "random" : {
+            "time:timestamp_mae": 1.703,
+            "Activity_acc" : 79.12 
+        },
+        "attr_level" : {
+            "time:timestamp_mae": 1.682,
+            "Activity_acc" : 79.31 
+        }
+
+    },
+    "small_log_CZ": {
+        "odd" : {
+            "time:timestamp_mae": 0.211,
+            "Activity_acc" : 19.48 
+        },
+        "even" : {
+            "time:timestamp_mae": 1.358,
+            "Activity_acc" : 11.53 
+        },
+        "window" : {
+            "time:timestamp_mae": 0.345,
+            "Activity_acc" : 16.76 
+        },
+        "random" : {
+            "time:timestamp_mae": 0.973,
+            "Activity_acc" : 66.44 
+        },
+        "attr_level" : {
+            "time:timestamp_mae": 0.977,
+            "Activity_acc" : 67.18 
+        }
+
+    }
+    ,
+    "sp2020_CZ": {
+        "odd" : {
+            "time:timestamp_mae": 0.048,
+            "Activity_acc" : 35.22 
+        },
+        "even" : {
+            "time:timestamp_mae": 0.075,
+            "Activity_acc" : 29.46 
+        },
+        "window" : {
+            "time:timestamp_mae": 0.071,
+            "Activity_acc" : 27.75 
+        },
+        "random" : {
+            "time:timestamp_mae": 0.106,
+            "Activity_acc" : 47.48 
+        },
+        "attr_level" : {
+            "time:timestamp_mae": 0.105,
+            "Activity_acc" : 44.81
+        }
+
+    },
+    "BPI20_RequestForPayment_CZ":{
+        "odd" : {
+            "time:timestamp_mae": 0.004,
+            "Activity_acc" : 56.94 
+        },
+        "even" : {
+            "time:timestamp_mae": 0.004,
+            "Activity_acc" : 61.63 
+        },
+        "window" : {
+            "time:timestamp_mae": 0.005,
+            "Activity_acc" : 51.14 
+        },
+        "random" : {
+            "time:timestamp_mae": 0.006,
+            "Activity_acc" : 91.3 
+        },
+        "attr_level" : {
+            "time:timestamp_mae": 0.006,
+            "Activity_acc" : 91.9
+        }
+
+    }
+}
