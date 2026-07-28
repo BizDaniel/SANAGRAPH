@@ -40,35 +40,71 @@ from torch_geometric.data import HeteroData
 def visualize_heterogeneous_graph(data: HeteroData):
     """
     Visualizes a heterogeneous graph using networkx and matplotlib.
+    Nodes are grouped by type in vertical columns for clarity.
     
     Parameters:
         data (HeteroData): A PyTorch Geometric heterogeneous graph.
     """
     G = nx.DiGraph()
-    
-    # Add nodes with types
+
     for node_type, node_features in data.x_dict.items():
         for i in range(node_features.shape[0]):
-            G.add_node(f"{node_type}_{i}", label=node_type)
-    
-    # Add edges with types
+            G.add_node(f"{node_type}_{i}", node_type=node_type)
+
     for (src_type, rel, dst_type), edge_index in data.edge_index_dict.items():
         for i in range(edge_index.shape[1]):
             src = f"{src_type}_{edge_index[0, i]}"
             dst = f"{dst_type}_{edge_index[1, i]}"
             G.add_edge(src, dst, label=rel)
-    
-    # Draw the graph
-    plt.figure(figsize=(10, 6))
-    pos = nx.spring_layout(G, k=4)
-    labels = nx.get_node_attributes(G, 'label')
-    edge_labels = nx.get_edge_attributes(G, 'label')
-    
-    nx.draw(G, pos, with_labels=True, node_size=500, node_color="lightblue", edge_color="gray")
-    nx.draw_networkx_labels(G, pos, labels, font_size=10)
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
-    
-    plt.title("Heterogeneous Graph Visualization")
+
+    node_types = list(data.x_dict.keys())
+    n_types = len(node_types)
+    pos = {}
+    for col_idx, node_type in enumerate(node_types):
+        nodes_of_type = [n for n, d in G.nodes(data=True) if d["node_type"] == node_type]
+        n_nodes = len(nodes_of_type)
+        for row_idx, node in enumerate(nodes_of_type):
+            x = col_idx * 3.0
+            y = -(row_idx - (n_nodes - 1) / 2) * 2.0 
+            pos[node] = (y, x)
+
+    color_palette = plt.cm.tab10.colors
+    type_to_color = {nt: color_palette[i % 10] for i, nt in enumerate(node_types)}
+    node_colors = [type_to_color[G.nodes[n]["node_type"]] for n in G.nodes]
+
+    import builtins
+    max_nodes = builtins.max(
+        len([n for n, d in G.nodes(data=True) if d["node_type"] == nt])
+        for nt in node_types
+    )
+    fig, ax = plt.subplots(figsize=(builtins.max(12, n_types * 3), builtins.max(6, 2 * max_nodes)))
+
+    nx.draw_networkx_nodes(G, pos, node_color=node_colors, node_size=800, ax=ax)
+    nx.draw_networkx_edges(G, pos, edge_color="gray", arrows=True,
+                           arrowsize=15, connectionstyle="arc3,rad=0.1", ax=ax)
+
+    nx.draw_networkx_labels(G, pos, font_size=8, font_weight="bold", ax=ax)
+
+    seen_edges = set()
+    dedup_edge_labels = {}
+    for (src, dst, data_e) in G.edges(data=True):
+        key = (src, dst)
+        if key not in seen_edges:
+            dedup_edge_labels[key] = data_e.get("label", "")
+            seen_edges.add(key)
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=dedup_edge_labels,
+                                 font_size=7, label_pos=0.35, ax=ax)
+
+    legend_handles = [
+        plt.Line2D([0], [0], marker='o', color='w',
+                   markerfacecolor=type_to_color[nt], markersize=10, label=nt)
+        for nt in node_types
+    ]
+    ax.legend(handles=legend_handles, title="Node types", loc="upper right", fontsize=9)
+
+    ax.set_title("Heterogeneous Graph Visualization", fontsize=13, fontweight="bold")
+    ax.axis("off")
+    plt.tight_layout()
     plt.show()
 
 def get_one_hot_encodings(
