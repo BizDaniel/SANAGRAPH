@@ -174,4 +174,4 @@ cython_debug/
 .pypirc
 
 # abalted graphs' folders
-data/datasets/ablation/BPI20_RequestForPayment_CZ
+data/datasets/ablation/BPI20_RequestForPayment_CZ/
