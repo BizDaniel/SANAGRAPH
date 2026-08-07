@@ -30,6 +30,15 @@ def get_one_hot_encoder(dataset: pd.DataFrame, key: str):
     onehot.fit(datas)
     return onehot
 
+def build_one_hot_encoders(tab_all, cat_features):
+    return {key: get_one_hot_encoder(tab_all, key) for key in cat_features}
+
+def group_by_case(tab):
+    return {
+        caseid: group.reset_index(drop=True).drop(columns="CaseID")
+        for caseid, group in tab.groupby("CaseID")
+    }
+
 def add_new_timestamp(trace: pd.DataFrame):
     times = list(trace["time:timestamp"].copy())
     for i in range(1, len(times)):
@@ -39,17 +48,15 @@ def add_new_timestamp(trace: pd.DataFrame):
     trace2["time:timestamp"] = times
     return trace2
 
-def get_node_features(dataset: pd.DataFrame, trace: pd.DataFrame, cat_features, real_features) -> dict:
+def get_node_features(trace, cat_features, real_features, encoders) -> dict:
     res = {}
-
     for key in trace:
         values = trace[key].values
         if key in cat_features:
-            onehot_encoder = get_one_hot_encoder(dataset, key)
             values = values.astype(np.str_)
             try:
                 res[key] = tensor(
-                    get_one_hot_encodings(onehot_encoder, values),
+                    get_one_hot_encodings(encoders[key], values),
                     dtype=float32,
                     requires_grad=True
                 )
@@ -57,9 +64,8 @@ def get_node_features(dataset: pd.DataFrame, trace: pd.DataFrame, cat_features, 
                 print(key)
                 print(values)
         if key in real_features:
-            res[key] = tensor(values, dtype=float32, requires_grad=True)
+            res[key] = tensor(values, dtype=float32)
             res[key] = res[key].reshape(res[key].shape[0], 1)
-
     return res
 
 def compute_edges_indexs(node_features: dict, prefix_len):
@@ -86,18 +92,11 @@ def compute_edges_indexs(node_features: dict, prefix_len):
 
     return res
 
-def get_masked_trace_dict_mask(dataset_traces, cat_features, real_features, caseid, newtimestamp):
-    trace = (
-        dataset_traces.query(f"CaseID == '{caseid}'")
-        .reset_index()
-        .drop(columns="index")
-        .drop(columns="CaseID")
-    )
+def get_masked_trace_dict_mask(grouped_masked_trace, cat_features, real_features, caseid, newtimestamp):
+    trace = grouped_masked_trace[caseid].copy()  
 
     null = trace.isnull()
-
     masks = {k: null[k] for k in trace.columns}
-
     mask_indexes = {k: [i for i in range(len(masks[k])) if masks[k][i]] for k in masks}
 
     trace["time:timestamp"] = newtimestamp
@@ -115,14 +114,12 @@ def get_masked_trace_dict_mask(dataset_traces, cat_features, real_features, case
     return trace, masks
 
 def build_prefixes_graph_from_trace(
-    dataset, trace, cat_features, real_features, masked_datasets, nan_methods,
+    trace, cat_features, real_features, grouped_masked_datasets, nan_methods, encoders,
     caseid=None, mask_method=None
 ):
-    X = []  # graphs
-
+    X = []
     trace = add_new_timestamp(trace)
-
-    node_features = get_node_features(dataset, trace, cat_features, real_features)
+    node_features = get_node_features(trace, cat_features, real_features, encoders)
 
     if mask_method is not None:
         masked_methods = [mask_method]
@@ -130,30 +127,26 @@ def build_prefixes_graph_from_trace(
         masked_methods = list(nan_methods)
 
     for j in range(len(masked_methods)):
-
         G = HeteroData()
 
         masked_trace, masks = get_masked_trace_dict_mask(
-            masked_datasets[masked_methods[j]], cat_features, real_features, caseid,
+            grouped_masked_datasets[masked_methods[j]], cat_features, real_features, caseid,
             trace["time:timestamp"].values
         )
 
         G.masks = masks
-
-        node_features_masked_trace = get_node_features(dataset, masked_trace, cat_features, real_features)
+        node_features_masked_trace = get_node_features(masked_trace, cat_features, real_features, encoders)
 
         for k in node_features_masked_trace:
             G[k].x = node_features_masked_trace[k]
 
         edges_indexes = compute_edges_indexs(node_features_masked_trace, len(trace))
-
         for k in edges_indexes:
             ce = [[], []]
             for i in range(len(edges_indexes[k])):
                 ce[0].append(edges_indexes[k][i][0])
                 ce[1].append(edges_indexes[k][i][1])
             edges_indexes[k] = ce
-
         for k in edges_indexes:
             G[k].edge_index = tensor(edges_indexes[k], dtype=int64)
 
@@ -167,68 +160,47 @@ def build_prefixes_graph_from_trace(
         X.append(G)
 
     return X
+   
 
-def build_split_graphs(tab_all, tab_split, cat_features, real_features, masked_datasets, nan_methods, case_ids=None):
-    """Builds graphs for a full split (train/valid/test), one graph per trace
-    per masking strategy in nan_methods (mirrors the TRAIN/VALID/TEST cells
-    of Create_graphs.ipynb)."""
+def build_split_graphs(grouped_tab_split, cat_features, real_features, grouped_masked_datasets, nan_methods, encoders, case_ids=None):
     if case_ids is None:
-        case_ids = get_case_ids(tab_split)
+        case_ids = list(grouped_tab_split.keys())
 
     X = []
     for caseid in tqdm(case_ids):
-        trace = (
-            tab_split.query(f"CaseID == '{caseid}'")
-            .reset_index()
-            .drop(columns="index")
-            .drop(columns="CaseID")
-        )
-
-        if len(trace) > 2:
+        trace = grouped_tab_split.get(caseid)
+        if trace is not None and len(trace) > 2:
             graphs = build_prefixes_graph_from_trace(
-                dataset=tab_all,
                 trace=trace,
                 cat_features=cat_features,
                 real_features=real_features,
-                masked_datasets=masked_datasets,
+                grouped_masked_datasets=grouped_masked_datasets,
                 nan_methods=nan_methods,
+                encoders=encoders,
                 caseid=caseid,
             )
             X.extend(graphs)
-
     return X
 
-def build_test_graphs_for_type(
-    tab_all, tab_test, cat_features, real_features, masked_datasets, nan_methods,
-    mask_type, case_ids=None
-):
-    """Builds the per-mask-type test set (mirrors create_and_save_test in
-    Create_graphs.ipynb), one graph per trace using only mask_type."""
+def build_test_graphs_for_type(grouped_tab_test, cat_features, real_features, grouped_masked_datasets, nan_methods, encoders, mask_type, case_ids=None):
     if case_ids is None:
-        case_ids = get_case_ids(tab_test)
+        case_ids = list(grouped_tab_test.keys())
 
     X = []
     for caseid in tqdm(case_ids):
-        trace = (
-            tab_test.query(f"CaseID == '{caseid}'")
-            .reset_index()
-            .drop(columns="index")
-            .drop(columns="CaseID")
-        )
-
-        if len(trace) > 2:
+        trace = grouped_tab_test.get(caseid)
+        if trace is not None and len(trace) > 2:
             graphs = build_prefixes_graph_from_trace(
-                dataset=tab_all,
                 trace=trace,
                 cat_features=cat_features,
                 real_features=real_features,
-                masked_datasets=masked_datasets,
+                grouped_masked_datasets=grouped_masked_datasets,
                 nan_methods=nan_methods,
+                encoders=encoders,
                 caseid=caseid,
                 mask_method=mask_type,
             )
             X.extend(graphs)
-
     return X
 
 # Functions to define the HGNN
