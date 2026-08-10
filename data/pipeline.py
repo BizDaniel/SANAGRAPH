@@ -60,9 +60,10 @@ def get_node_features(trace, cat_features, real_features, encoders) -> dict:
                     dtype=float32,
                     requires_grad=True
                 )
-            except ValueError:
+            except ValueError as e:
                 print(key)
                 print(values)
+                print("ERROR:", e)
         if key in real_features:
             res[key] = tensor(values, dtype=float32)
             res[key] = res[key].reshape(res[key].shape[0], 1)
