@@ -1,0 +1,166 @@
+log,pattern,attribute,attribute_kind,metric,mean,std
+BPI20_RequestForPayment_CZ,attr_level,Activity,categorical,accuracy,0.9194554150104522,0.008417549875173267
+BPI20_RequestForPayment_CZ,attr_level,case:Activity,categorical,accuracy,0.9702151238918304,0.01005771308688884
+BPI20_RequestForPayment_CZ,attr_level,case:OrganizationalEntity,categorical,accuracy,0.8329946637153626,0.030448738768097103
+BPI20_RequestForPayment_CZ,attr_level,case:Project,categorical,accuracy,0.8119194805622101,0.023466430501765265
+BPI20_RequestForPayment_CZ,attr_level,case:RequestedAmount,numerical,mae,0.2948265507817268,0.043346617295557784
+BPI20_RequestForPayment_CZ,attr_level,case:RfpNumber,categorical,accuracy,0.037987102195620494,0.0013099558223100523
+BPI20_RequestForPayment_CZ,attr_level,case:Task,categorical,accuracy,0.7585068643093109,0.0018817895621868076
+BPI20_RequestForPayment_CZ,attr_level,org:resource,categorical,accuracy,0.991328877210617,0.0034612488019460748
+BPI20_RequestForPayment_CZ,attr_level,org:role,categorical,accuracy,0.9674443662166595,0.005367801080643568
+BPI20_RequestForPayment_CZ,attr_level,time:timestamp,numerical,mae,0.007621584367006979,0.001290054544411637
+BPI20_RequestForPayment_CZ,even,Activity,categorical,accuracy,0.9666907370090485,0.0032191729288980524
+BPI20_RequestForPayment_CZ,even,case:Activity,categorical,accuracy,1.0,0.0
+BPI20_RequestForPayment_CZ,even,case:OrganizationalEntity,categorical,accuracy,0.9463684737682343,0.013041326692337268
+BPI20_RequestForPayment_CZ,even,case:Project,categorical,accuracy,0.9364117503166198,0.007471602107355053
+BPI20_RequestForPayment_CZ,even,case:RequestedAmount,numerical,mae,0.07635019235312936,0.022109097234454533
+BPI20_RequestForPayment_CZ,even,case:RfpNumber,categorical,accuracy,0.0447330437600612,0.0
+BPI20_RequestForPayment_CZ,even,case:Task,categorical,accuracy,0.7556036651134491,0.0015202285266025185
+BPI20_RequestForPayment_CZ,even,org:resource,categorical,accuracy,0.9997835457324982,0.0002391648719583419
+BPI20_RequestForPayment_CZ,even,org:role,categorical,accuracy,0.992304015159607,0.0014023499991967774
+BPI20_RequestForPayment_CZ,even,time:timestamp,numerical,mae,0.00679513895884151,0.0010236521262601246
+BPI20_RequestForPayment_CZ,odd,Activity,categorical,accuracy,0.9662636339664459,0.01557749874258862
+BPI20_RequestForPayment_CZ,odd,case:Activity,categorical,accuracy,1.0,0.0
+BPI20_RequestForPayment_CZ,odd,case:OrganizationalEntity,categorical,accuracy,0.9422612190246582,0.013733032142437407
+BPI20_RequestForPayment_CZ,odd,case:Project,categorical,accuracy,0.93328298330307,0.006134398567478114
+BPI20_RequestForPayment_CZ,odd,case:RequestedAmount,numerical,mae,0.06287004947662349,0.021381259982140605
+BPI20_RequestForPayment_CZ,odd,case:RfpNumber,categorical,accuracy,0.0317412354052066,7.314236392868128e-18
+BPI20_RequestForPayment_CZ,odd,case:Task,categorical,accuracy,0.7522067785263061,0.0022847468022084774
+BPI20_RequestForPayment_CZ,odd,org:resource,categorical,accuracy,0.9993954300880432,0.0
+BPI20_RequestForPayment_CZ,odd,org:role,categorical,accuracy,0.9865780174732208,0.011779009789114659
+BPI20_RequestForPayment_CZ,odd,time:timestamp,numerical,mae,0.00711179068312043,0.0010380904060311442
+BPI20_RequestForPayment_CZ,random,Activity,categorical,accuracy,0.8138125658035278,0.021358446755812905
+BPI20_RequestForPayment_CZ,random,case:Activity,categorical,accuracy,0.9780828773975372,0.009086716891129672
+BPI20_RequestForPayment_CZ,random,case:OrganizationalEntity,categorical,accuracy,0.8479267179965972,0.01944368609344655
+BPI20_RequestForPayment_CZ,random,case:Project,categorical,accuracy,0.8345180034637452,0.022090735685365348
+BPI20_RequestForPayment_CZ,random,case:RequestedAmount,numerical,mae,0.26718261092901224,0.039751328602651764
+BPI20_RequestForPayment_CZ,random,case:RfpNumber,categorical,accuracy,0.0413269586861133,0.0
+BPI20_RequestForPayment_CZ,random,case:Task,categorical,accuracy,0.7539746403694153,0.0009420557386801125
+BPI20_RequestForPayment_CZ,random,org:resource,categorical,accuracy,0.9177705645561218,0.023186290553761525
+BPI20_RequestForPayment_CZ,random,org:role,categorical,accuracy,0.8790791094303131,0.014722061881284753
+BPI20_RequestForPayment_CZ,random,time:timestamp,numerical,mae,0.00760336732491846,0.0005911987949044454
+BPI20_RequestForPayment_CZ,window,Activity,categorical,accuracy,0.9507018148899078,0.01614709755632595
+BPI20_RequestForPayment_CZ,window,case:Activity,categorical,accuracy,1.0,0.0
+BPI20_RequestForPayment_CZ,window,case:OrganizationalEntity,categorical,accuracy,0.9376860857009888,0.012887120800328885
+BPI20_RequestForPayment_CZ,window,case:Project,categorical,accuracy,0.9261803388595581,0.013757925473947873
+BPI20_RequestForPayment_CZ,window,case:RequestedAmount,numerical,mae,0.10737459398806089,0.029397784475191403
+BPI20_RequestForPayment_CZ,window,case:RfpNumber,categorical,accuracy,0.0399829857051372,0.0
+BPI20_RequestForPayment_CZ,window,case:Task,categorical,accuracy,0.7538919448852539,0.0013368334514425844
+BPI20_RequestForPayment_CZ,window,org:resource,categorical,accuracy,0.9983198583126068,0.0011754034480244782
+BPI20_RequestForPayment_CZ,window,org:role,categorical,accuracy,0.990854948759079,0.0022237879190828555
+BPI20_RequestForPayment_CZ,window,time:timestamp,numerical,mae,0.00746951578184957,0.0013568609972176072
+bpi_2012_CZ,attr_level,(case) AMOUNT_REQ,numerical,mae,0.0971109643578529,0.006824384406634124
+bpi_2012_CZ,attr_level,Activity,categorical,accuracy,0.8953539609909058,0.006970296050151826
+bpi_2012_CZ,attr_level,concept:name,categorical,accuracy,0.9002313494682312,0.006174804425913982
+bpi_2012_CZ,attr_level,lifecycle:transition,categorical,accuracy,0.9597461998462677,0.0033114503989909393
+bpi_2012_CZ,attr_level,org:resource,categorical,accuracy,0.6573143064975738,0.008468822281914198
+bpi_2012_CZ,attr_level,time:timestamp,numerical,mae,0.02875513937324281,0.005642526270712785
+bpi_2012_CZ,even,(case) AMOUNT_REQ,numerical,mae,0.025660718232393222,0.012173649257398445
+bpi_2012_CZ,even,Activity,categorical,accuracy,0.9232320725917816,0.0017583854958327914
+bpi_2012_CZ,even,concept:name,categorical,accuracy,0.9238786399364471,0.003011759011477123
+bpi_2012_CZ,even,lifecycle:transition,categorical,accuracy,0.9893456757068634,0.001280074047623808
+bpi_2012_CZ,even,org:resource,categorical,accuracy,0.7940221965312958,0.0060240844936780575
+bpi_2012_CZ,even,time:timestamp,numerical,mae,0.01188591755926604,0.005231195866260936
+bpi_2012_CZ,odd,(case) AMOUNT_REQ,numerical,mae,0.025692912936210587,0.013616397574464695
+bpi_2012_CZ,odd,Activity,categorical,accuracy,0.9519116282463074,0.003229012734972987
+bpi_2012_CZ,odd,concept:name,categorical,accuracy,0.9522302269935607,0.0033560496539885537
+bpi_2012_CZ,odd,lifecycle:transition,categorical,accuracy,0.9892404794692993,0.0008320178727602418
+bpi_2012_CZ,odd,org:resource,categorical,accuracy,0.7735770046710968,0.008245233027710104
+bpi_2012_CZ,odd,time:timestamp,numerical,mae,0.01254988065920765,0.005500274933520933
+bpi_2012_CZ,random,(case) AMOUNT_REQ,numerical,mae,0.0838828310370445,0.008855021715230612
+bpi_2012_CZ,random,Activity,categorical,accuracy,0.7723235368728638,0.010323392217241092
+bpi_2012_CZ,random,concept:name,categorical,accuracy,0.7926722764968872,0.006770226075147456
+bpi_2012_CZ,random,lifecycle:transition,categorical,accuracy,0.890260511636734,0.002486371481422456
+bpi_2012_CZ,random,org:resource,categorical,accuracy,0.6417310953140258,0.007013928768067394
+bpi_2012_CZ,random,time:timestamp,numerical,mae,0.0177467474713921,0.0049021312372542125
+bpi_2012_CZ,window,(case) AMOUNT_REQ,numerical,mae,0.022872542496770558,0.014748609492603388
+bpi_2012_CZ,window,Activity,categorical,accuracy,0.8937236666679382,0.005740604528898347
+bpi_2012_CZ,window,concept:name,categorical,accuracy,0.8882992923259735,0.0032040084081898248
+bpi_2012_CZ,window,lifecycle:transition,categorical,accuracy,0.9567485749721527,0.005060679108974234
+bpi_2012_CZ,window,org:resource,categorical,accuracy,0.7176387965679168,0.010027871024217911
+bpi_2012_CZ,window,time:timestamp,numerical,mae,0.012056107632815779,0.0037655077183812646
+bpi_2013_CZ,attr_level,Activity,categorical,accuracy,0.7535897672176362,0.0317840708419709
+bpi_2013_CZ,attr_level,concept:name,categorical,accuracy,0.9005390644073487,0.019205055852672518
+bpi_2013_CZ,attr_level,impact,categorical,accuracy,0.913178312778473,0.020714866057537244
+bpi_2013_CZ,attr_level,lifecycle:transition,categorical,accuracy,0.8183510303497314,0.008869682608141206
+bpi_2013_CZ,attr_level,org:group,categorical,accuracy,0.8744565427303315,0.027408407686206854
+bpi_2013_CZ,attr_level,org:resource,categorical,accuracy,0.10427350476384159,0.03042495561287543
+bpi_2013_CZ,attr_level,org:role,categorical,accuracy,0.5913669168949127,0.0331749085198308
+bpi_2013_CZ,attr_level,organization country,categorical,accuracy,0.8906666517257691,0.014767327752788724
+bpi_2013_CZ,attr_level,organization involved,categorical,accuracy,0.2729946538805961,0.018967418747178562
+bpi_2013_CZ,attr_level,product,categorical,accuracy,0.35919999480247494,0.05065964936689667
+bpi_2013_CZ,attr_level,resource country,categorical,accuracy,0.7726342737674713,0.011079421422286937
+bpi_2013_CZ,attr_level,time:timestamp,numerical,mae,0.02060797465965147,0.007392738437205755
+bpi_2013_CZ,even,Activity,categorical,accuracy,0.6877404153347015,0.027183422804257687
+bpi_2013_CZ,even,concept:name,categorical,accuracy,0.7451923310756683,0.013455803607923644
+bpi_2013_CZ,even,impact,categorical,accuracy,1.0,0.0
+bpi_2013_CZ,even,lifecycle:transition,categorical,accuracy,0.704807710647583,0.00933072298492854
+bpi_2013_CZ,even,org:group,categorical,accuracy,0.947836571931839,0.008483761786017879
+bpi_2013_CZ,even,org:resource,categorical,accuracy,0.1619164571166038,0.026219537671510584
+bpi_2013_CZ,even,org:role,categorical,accuracy,0.7629385948181152,0.027026035510289446
+bpi_2013_CZ,even,organization country,categorical,accuracy,0.9699519574642181,0.00879586920619684
+bpi_2013_CZ,even,organization involved,categorical,accuracy,0.41529126465320587,0.03305191758798444
+bpi_2013_CZ,even,product,categorical,accuracy,0.43557694256305696,0.06007799439470804
+bpi_2013_CZ,even,resource country,categorical,accuracy,0.8687500417232513,0.012423746547408434
+bpi_2013_CZ,even,time:timestamp,numerical,mae,0.019702790956944192,0.007381983871620757
+bpi_2013_CZ,odd,Activity,categorical,accuracy,0.665976345539093,0.0307290628420435
+bpi_2013_CZ,odd,concept:name,categorical,accuracy,0.8455621540546417,0.01601160277556685
+bpi_2013_CZ,odd,impact,categorical,accuracy,1.0,0.0
+bpi_2013_CZ,odd,lifecycle:transition,categorical,accuracy,0.6928994238376618,0.014614310134858243
+bpi_2013_CZ,odd,org:group,categorical,accuracy,0.9390532612800598,0.01176838552312935
+bpi_2013_CZ,odd,org:resource,categorical,accuracy,0.16867469251155848,0.023417479172497747
+bpi_2013_CZ,odd,org:role,categorical,accuracy,0.7632124185562134,0.028905334334060884
+bpi_2013_CZ,odd,organization country,categorical,accuracy,0.976627242565155,0.00428738743359002
+bpi_2013_CZ,odd,organization involved,categorical,accuracy,0.39851632118225094,0.03956602318086071
+bpi_2013_CZ,odd,product,categorical,accuracy,0.4352071076631546,0.057376618132831764
+bpi_2013_CZ,odd,resource country,categorical,accuracy,0.8644970536231995,0.01343541712758044
+bpi_2013_CZ,odd,time:timestamp,numerical,mae,0.01793842576444144,0.006991235560766275
+bpi_2013_CZ,random,Activity,categorical,accuracy,0.6214099287986755,0.04001588293601163
+bpi_2013_CZ,random,concept:name,categorical,accuracy,0.7485639750957489,0.011872803223166887
+bpi_2013_CZ,random,impact,categorical,accuracy,0.9446475327014923,0.021628859307779715
+bpi_2013_CZ,random,lifecycle:transition,categorical,accuracy,0.6498694717884064,0.015444222945286615
+bpi_2013_CZ,random,org:group,categorical,accuracy,0.8754569351673126,0.025907256243030995
+bpi_2013_CZ,random,org:resource,categorical,accuracy,0.11510989218950267,0.023074380588316977
+bpi_2013_CZ,random,org:role,categorical,accuracy,0.6752997756004333,0.028311345369816335
+bpi_2013_CZ,random,organization country,categorical,accuracy,0.9159269034862518,0.018576837425504148
+bpi_2013_CZ,random,organization involved,categorical,accuracy,0.31724137067794794,0.019094867053626497
+bpi_2013_CZ,random,product,categorical,accuracy,0.3806788563728333,0.05539789246906508
+bpi_2013_CZ,random,resource country,categorical,accuracy,0.8148825287818908,0.03403059334481861
+bpi_2013_CZ,random,time:timestamp,numerical,mae,0.02117866231128569,0.00811797601180594
+bpi_2013_CZ,window,Activity,categorical,accuracy,0.6454148650169372,0.032827011374740006
+bpi_2013_CZ,window,concept:name,categorical,accuracy,0.7853711903095245,0.017285874390490813
+bpi_2013_CZ,window,impact,categorical,accuracy,1.0,0.0
+bpi_2013_CZ,window,lifecycle:transition,categorical,accuracy,0.6973799228668213,0.028638805237660964
+bpi_2013_CZ,window,org:group,categorical,accuracy,0.9497806966304779,0.010257394063397901
+bpi_2013_CZ,window,org:resource,categorical,accuracy,0.1547126419842243,0.024689318860848526
+bpi_2013_CZ,window,org:role,categorical,accuracy,0.7318458259105682,0.03329978010130697
+bpi_2013_CZ,window,organization country,categorical,accuracy,0.9635371446609498,0.012310409494293907
+bpi_2013_CZ,window,organization involved,categorical,accuracy,0.3856194674968719,0.022755250444283205
+bpi_2013_CZ,window,product,categorical,accuracy,0.42423581779003144,0.06397251631029131
+bpi_2013_CZ,window,resource country,categorical,accuracy,0.8375545978546143,0.012656219962716517
+bpi_2013_CZ,window,time:timestamp,numerical,mae,0.01824308335781093,0.006392505795142263
+sp2020_CZ,attr_level,Activity,categorical,accuracy,0.6461701571941376,0.005558747805934987
+sp2020_CZ,attr_level,DEVICETYPE,categorical,accuracy,0.9390388309955597,0.0036051439343300754
+sp2020_CZ,attr_level,REPAIR_IN_TIME_5D,categorical,accuracy,0.9870235025882721,0.0033248159332276723
+sp2020_CZ,attr_level,org:resource,categorical,accuracy,0.9587215423583985,0.003393685112853679
+sp2020_CZ,attr_level,time:timestamp,numerical,mae,0.020199555531144088,0.0016098747341398581
+sp2020_CZ,even,Activity,categorical,accuracy,0.8491121649742126,0.008454179701874216
+sp2020_CZ,even,DEVICETYPE,categorical,accuracy,0.997901463508606,0.0005545994653813313
+sp2020_CZ,even,REPAIR_IN_TIME_5D,categorical,accuracy,1.0,0.0
+sp2020_CZ,even,org:resource,categorical,accuracy,0.9998019933700562,0.0
+sp2020_CZ,even,time:timestamp,numerical,mae,0.01286777211353178,0.0017452405741482232
+sp2020_CZ,odd,Activity,categorical,accuracy,0.8089016079902649,0.006352671348902251
+sp2020_CZ,odd,DEVICETYPE,categorical,accuracy,0.9979724884033203,0.000507842632250692
+sp2020_CZ,odd,REPAIR_IN_TIME_5D,categorical,accuracy,1.0,0.0
+sp2020_CZ,odd,org:resource,categorical,accuracy,0.9998353719711304,0.0
+sp2020_CZ,odd,time:timestamp,numerical,mae,0.0159722119569778,0.0016213018989948364
+sp2020_CZ,random,Activity,categorical,accuracy,0.6451579689979553,0.00612603734160743
+sp2020_CZ,random,DEVICETYPE,categorical,accuracy,0.9358845591545105,0.00513321939991332
+sp2020_CZ,random,REPAIR_IN_TIME_5D,categorical,accuracy,0.9829645276069641,0.004229786511353579
+sp2020_CZ,random,org:resource,categorical,accuracy,0.9690645098686218,0.002709844122007156
+sp2020_CZ,random,time:timestamp,numerical,mae,0.01632992103695865,0.0015903658938242848
+sp2020_CZ,window,Activity,categorical,accuracy,0.7387830555438996,0.005366479951828542
+sp2020_CZ,window,DEVICETYPE,categorical,accuracy,0.9973994672298432,0.0004906048708844306
+sp2020_CZ,window,REPAIR_IN_TIME_5D,categorical,accuracy,1.0,0.0
+sp2020_CZ,window,org:resource,categorical,accuracy,0.9996876358985901,9.102020758009529e-05
+sp2020_CZ,window,time:timestamp,numerical,mae,0.01544670332223172,0.0016177431423208479
