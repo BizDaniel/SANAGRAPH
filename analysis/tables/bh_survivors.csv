@@ -1,0 +1,23 @@
+log,excluded_feature,structural,n_significant_bh,mean_delta
+bpi_2012_CZ,Activity,True,18,0.07825383564922957
+bpi_2013_CZ,Activity,True,14,0.09326710261936699
+bpi_2012_CZ,(case) AMOUNT_REQ,False,13,-0.01154723304968615
+BPI20_RequestForPayment_CZ,case:RfpNumber,False,7,-0.05822297781705858
+BPI20_RequestForPayment_CZ,time:timestamp,False,6,-0.04770330873628459
+sp2020_CZ,org:resource,False,5,0.032927126884460464
+BPI20_RequestForPayment_CZ,case:OrganizationalEntity,False,5,-0.013373526334762565
+bpi_2013_CZ,org:role,False,5,0.07199398726224901
+sp2020_CZ,Activity,True,4,-0.00214571654796597
+bpi_2013_CZ,org:resource,False,4,0.035531501471996324
+BPI20_RequestForPayment_CZ,Activity,True,4,0.032366616255603706
+BPI20_RequestForPayment_CZ,case:RequestedAmount,False,4,0.005714492499828333
+bpi_2012_CZ,org:resource,False,4,0.007942156493663782
+bpi_2013_CZ,lifecycle:transition,False,3,0.03228037556012472
+BPI20_RequestForPayment_CZ,org:role,False,3,-0.011745158831278543
+sp2020_CZ,DEVICETYPE,False,3,-0.010180860757827722
+bpi_2012_CZ,lifecycle:transition,False,2,0.02212201058864599
+bpi_2012_CZ,concept:name,False,2,0.04657495915889748
+bpi_2013_CZ,concept:name,False,2,0.06604361012578008
+bpi_2013_CZ,impact,False,1,0.0640000015497208
+BPI20_RequestForPayment_CZ,org:resource,False,1,0.013679736852645896
+bpi_2013_CZ,resource country,False,1,0.034939757734537114
