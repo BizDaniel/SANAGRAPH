@@ -14,15 +14,16 @@ from torch.nn.functional import l1_loss
 from torch_geometric.data import HeteroData
 from torch_geometric.loader import DataLoader
 from torch_geometric.nn import HeteroConv, SAGEConv
-from torcheval.metrics.functional import multiclass_accuracy, multiclass_f1_score
+from torcheval.metrics.functional import multiclass_accuracy
 
 from utils import get_case_ids, get_one_hot_encodings
 
 MISSING_VALUE = "MISSING_VALUE"
 
-# function for create the graph
-
+# functions to create the graphs
+ 
 def get_one_hot_encoder(dataset: pd.DataFrame, key: str):
+    """ this versione adds support for missing values and converts all categories into strings"""
     datas = np.append(dataset[key].unique(), MISSING_VALUE)
     datas = datas.astype(np.str_)
     datas = datas.reshape([len(datas), 1])
@@ -30,16 +31,20 @@ def get_one_hot_encoder(dataset: pd.DataFrame, key: str):
     onehot.fit(datas)
     return onehot
 
+
 def build_one_hot_encoders(tab_all, cat_features):
-    return {key: get_one_hot_encoder(tab_all, key) for key in cat_features}
+    """ this function creates a separated one-hot encoder for each categorical feature in the dataset """
+    return { key: get_one_hot_encoder(tab_all, key) for key in cat_features }
 
 def group_by_case(tab):
+    """ it returns a dictionary of dataframes, with one entry for each distinct caseid (event that belongs to same trace)"""
     return {
         caseid: group.reset_index(drop=True).drop(columns="CaseID")
         for caseid, group in tab.groupby("CaseID")
     }
 
 def add_new_timestamp(trace: pd.DataFrame):
+    """ it replaces the timestamp with the time elapsed since the first event in the trace """
     times = list(trace["time:timestamp"].copy())
     for i in range(1, len(times)):
         times[i] = times[i] - times[0]
@@ -49,6 +54,8 @@ def add_new_timestamp(trace: pd.DataFrame):
     return trace2
 
 def get_node_features(trace, cat_features, real_features, encoders) -> dict:
+    """ this version is useful for every type of feature"""
+    
     res = {}
     for key in trace:
         values = trace[key].values
@@ -162,7 +169,6 @@ def build_prefixes_graph_from_trace(
 
     return X
    
-
 def build_split_graphs(grouped_tab_split, cat_features, real_features, grouped_masked_datasets, nan_methods, encoders, case_ids=None):
     if case_ids is None:
         case_ids = list(grouped_tab_split.keys())
@@ -204,10 +210,11 @@ def build_test_graphs_for_type(grouped_tab_test, cat_features, real_features, gr
             X.extend(graphs)
     return X
 
+
 # Functions to define the HGNN
 
 class HGNN(Module):
-
+    """ definition of the HGNN model """
     def __init__(self, output_cat, output_real, nodes_relations, parameters, device):
         super().__init__()
 
@@ -257,6 +264,8 @@ class HGNN(Module):
         return output
 
 def train_hgnn(config, output_cat, output_real, edge_types, X_train, X_valid, device, epochs=20):
+    """ trains the HGNN """
+
     print(config)
 
     net = HGNN(
@@ -342,6 +351,7 @@ def train_hgnn(config, output_cat, output_real, edge_types, X_train, X_valid, de
 
 def test_hgnn(net, output_cat, output_real, device, test_graphs):
 
+    """ tests the HGNN """
 
     test_loader = DataLoader(test_graphs, batch_size=128, shuffle=False)
 
@@ -426,12 +436,14 @@ def test_hgnn(net, output_cat, output_real, device, test_graphs):
 
     return res
 
+
 # Useful functions for ablation
 
 def convert_feature_name(feature): 
     return re.sub(r'[^A-Za-z0-9_.-]+', '_', feature)
 
 def get_feature_variants(dataset_info):
+    """ creates one variant for each feature, excluding that feature from the feature list """
     variants = []
     for f in dataset_info["categorical"] + dataset_info["numerical"]:
         cat = [c for c in dataset_info["categorical"] if c != f]
