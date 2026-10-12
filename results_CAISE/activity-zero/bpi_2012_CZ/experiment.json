@@ -1,0 +1,37 @@
+{
+  "dataset": "bpi_2012_CZ",
+  "variant": "Activity_zero",
+  "full_graph_dir": "/kaggle/input/datasets/danielbiz/full-graphs-bpi-2012-cz",
+  "n_runs": 10,
+  "epochs": 100,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "parameters": {
+    "hid": 128,
+    "layers": 4,
+    "lr": 0.0001,
+    "batch_size": 128,
+    "weight_decay": 0.01,
+    "aggregation": "sum"
+  },
+  "activity_input": "all zero",
+  "activity_target": false,
+  "activity_nodes_and_edges": "retained",
+  "patterns": [
+    "odd",
+    "even",
+    "random",
+    "window",
+    "attr_level"
+  ]
+}

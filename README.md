@@ -32,7 +32,7 @@ SANAGRAPH/
 ├── ablation_training_loop.ipynb     # Train and evaluate each variant
 ├── main_notebook_version.ipynb      # Original model workflow
 ├── results_CAISE/
-│   └── ablation/                   # Ablation results
+│   └── ablation/                   # Ablation results, they measure how good every ablated model rebuild the reamined missing attributes
 └── analysis/
     ├── 01_ablation_tables.ipynb     # Result comparisons and statistical analysis
     ├── 02_ablation_visualization.ipynb # Plot results
