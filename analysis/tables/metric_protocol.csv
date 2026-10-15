@@ -1,0 +1,3 @@
+target_kind,metric,source_column,better,delta,display_unit
+categorical,accuracy,<target>_acc,higher,full_mean - variant_mean,accuracy 0-1; delta_accuracy_pp = 100 * delta
+numerical,mae,MAE_<target>,lower,variant_mean - full_mean,target scale used in the model

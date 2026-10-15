@@ -1,0 +1,5 @@
+log,full_configurations,attribute_removal_configurations,activity_zero_configurations,total_configurations,main_configurations,runs_per_configuration,trained_models,main_trained_models,test_patterns,result_files,test_evaluations
+bpi_2012_CZ,1,6,1,8,7,10,80,70,5,40,400
+bpi_2013_CZ,1,12,1,14,13,10,140,130,5,70,700
+sp2020_CZ,1,5,1,7,6,10,70,60,5,35,350
+BPI20_RequestForPayment_CZ,1,10,1,12,11,10,120,110,5,60,600

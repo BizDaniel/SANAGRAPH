@@ -1,0 +1,42 @@
+log,model,intervention,intervened_feature,excluded_target,graph_change,categorical_targets,numerical_targets,total_targets,runs,test_patterns,in_main_analysis,source_directory
+bpi_2012_CZ,full,full,,,no removal,4,2,6,10,5,True,results_CAISE/bpi_2012_CZ
+bpi_2012_CZ,ablate::Activity,attribute_removal,Activity,Activity,nodes and edges of the removed attribute,3,2,5,10,5,False,results_CAISE/attribute_removal/bpi_2012_CZ/ablation_Activity
+bpi_2012_CZ,ablate::org:resource,attribute_removal,org:resource,org:resource,nodes and edges of the removed attribute,3,2,5,10,5,True,results_CAISE/attribute_removal/bpi_2012_CZ/ablation_org_resource
+bpi_2012_CZ,ablate::concept:name,attribute_removal,concept:name,concept:name,nodes and edges of the removed attribute,3,2,5,10,5,True,results_CAISE/attribute_removal/bpi_2012_CZ/ablation_concept_name
+bpi_2012_CZ,ablate::lifecycle:transition,attribute_removal,lifecycle:transition,lifecycle:transition,nodes and edges of the removed attribute,3,2,5,10,5,True,results_CAISE/attribute_removal/bpi_2012_CZ/ablation_lifecycle_transition
+bpi_2012_CZ,ablate::time:timestamp,attribute_removal,time:timestamp,time:timestamp,nodes and edges of the removed attribute,4,1,5,10,5,True,results_CAISE/attribute_removal/bpi_2012_CZ/ablation_time_timestamp
+bpi_2012_CZ,ablate::(case) AMOUNT_REQ,attribute_removal,(case) AMOUNT_REQ,(case) AMOUNT_REQ,nodes and edges of the removed attribute,4,1,5,10,5,True,results_CAISE/attribute_removal/bpi_2012_CZ/ablation__case_AMOUNT_REQ
+bpi_2012_CZ,Activity_zero,input_zero,Activity,Activity,nodes and edges preserved,3,2,5,10,5,True,results_CAISE/activity_removal/bpi_2012_CZ/ablation_Activity_zero
+bpi_2013_CZ,full,full,,,no removal,11,1,12,10,5,True,results_CAISE/bpi_2013_CZ
+bpi_2013_CZ,ablate::Activity,attribute_removal,Activity,Activity,nodes and edges of the removed attribute,10,1,11,10,5,False,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_Activity
+bpi_2013_CZ,ablate::org:resource,attribute_removal,org:resource,org:resource,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_org_resource
+bpi_2013_CZ,ablate::impact,attribute_removal,impact,impact,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_impact
+bpi_2013_CZ,ablate::concept:name,attribute_removal,concept:name,concept:name,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_concept_name
+bpi_2013_CZ,ablate::lifecycle:transition,attribute_removal,lifecycle:transition,lifecycle:transition,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_lifecycle_transition
+bpi_2013_CZ,ablate::org:group,attribute_removal,org:group,org:group,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_org_group
+bpi_2013_CZ,ablate::org:role,attribute_removal,org:role,org:role,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_org_role
+bpi_2013_CZ,ablate::organization country,attribute_removal,organization country,organization country,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_organization_country
+bpi_2013_CZ,ablate::organization involved,attribute_removal,organization involved,organization involved,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_organization_involved
+bpi_2013_CZ,ablate::product,attribute_removal,product,product,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_product
+bpi_2013_CZ,ablate::resource country,attribute_removal,resource country,resource country,nodes and edges of the removed attribute,10,1,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_resource_country
+bpi_2013_CZ,ablate::time:timestamp,attribute_removal,time:timestamp,time:timestamp,nodes and edges of the removed attribute,11,0,11,10,5,True,results_CAISE/attribute_removal/bpi_2013_CZ/ablation_time_timestamp
+bpi_2013_CZ,Activity_zero,input_zero,Activity,Activity,nodes and edges preserved,10,1,11,10,5,True,results_CAISE/activity_removal/bpi_2013_CZ/ablation_Activity_zero
+sp2020_CZ,full,full,,,no removal,4,1,5,10,5,True,results_CAISE/sp2020_CZ
+sp2020_CZ,ablate::Activity,attribute_removal,Activity,Activity,nodes and edges of the removed attribute,3,1,4,10,5,False,results_CAISE/attribute_removal/sp2020_CZ/ablation_Activity
+sp2020_CZ,ablate::REPAIR_IN_TIME_5D,attribute_removal,REPAIR_IN_TIME_5D,REPAIR_IN_TIME_5D,nodes and edges of the removed attribute,3,1,4,10,5,True,results_CAISE/attribute_removal/sp2020_CZ/ablation_REPAIR_IN_TIME_5D
+sp2020_CZ,ablate::DEVICETYPE,attribute_removal,DEVICETYPE,DEVICETYPE,nodes and edges of the removed attribute,3,1,4,10,5,True,results_CAISE/attribute_removal/sp2020_CZ/ablation_DEVICETYPE
+sp2020_CZ,ablate::org:resource,attribute_removal,org:resource,org:resource,nodes and edges of the removed attribute,3,1,4,10,5,True,results_CAISE/attribute_removal/sp2020_CZ/ablation_org_resource
+sp2020_CZ,ablate::time:timestamp,attribute_removal,time:timestamp,time:timestamp,nodes and edges of the removed attribute,4,0,4,10,5,True,results_CAISE/attribute_removal/sp2020_CZ/ablation_time_timestamp
+sp2020_CZ,Activity_zero,input_zero,Activity,Activity,nodes and edges preserved,3,1,4,10,5,True,results_CAISE/activity_removal/sp2020_CZ/ablation_Activity_zero
+BPI20_RequestForPayment_CZ,full,full,,,no removal,8,2,10,10,5,True,results_CAISE/BPI20_RequestForPayment_CZ
+BPI20_RequestForPayment_CZ,ablate::org:resource,attribute_removal,org:resource,org:resource,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_org_resource
+BPI20_RequestForPayment_CZ,ablate::Activity,attribute_removal,Activity,Activity,nodes and edges of the removed attribute,7,2,9,10,5,False,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_Activity
+BPI20_RequestForPayment_CZ,ablate::org:role,attribute_removal,org:role,org:role,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_org_role
+BPI20_RequestForPayment_CZ,ablate::case:Project,attribute_removal,case:Project,case:Project,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_case_Project
+BPI20_RequestForPayment_CZ,ablate::case:Task,attribute_removal,case:Task,case:Task,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_case_Task
+BPI20_RequestForPayment_CZ,ablate::case:OrganizationalEntity,attribute_removal,case:OrganizationalEntity,case:OrganizationalEntity,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_case_OrganizationalEntity
+BPI20_RequestForPayment_CZ,ablate::case:Activity,attribute_removal,case:Activity,case:Activity,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_case_Activity
+BPI20_RequestForPayment_CZ,ablate::case:RfpNumber,attribute_removal,case:RfpNumber,case:RfpNumber,nodes and edges of the removed attribute,7,2,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_case_RfpNumber
+BPI20_RequestForPayment_CZ,ablate::time:timestamp,attribute_removal,time:timestamp,time:timestamp,nodes and edges of the removed attribute,8,1,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_time_timestamp
+BPI20_RequestForPayment_CZ,ablate::case:RequestedAmount,attribute_removal,case:RequestedAmount,case:RequestedAmount,nodes and edges of the removed attribute,8,1,9,10,5,True,results_CAISE/attribute_removal/BPI20_RequestForPayment_CZ/ablation_case_RequestedAmount
+BPI20_RequestForPayment_CZ,Activity_zero,input_zero,Activity,Activity,nodes and edges preserved,7,2,9,10,5,True,results_CAISE/activity_removal/BPI20_RequestForPayment_CZ/ablation_Activity_zero
