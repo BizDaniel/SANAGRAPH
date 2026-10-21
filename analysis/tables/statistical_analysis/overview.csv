@@ -1,0 +1,9 @@
+log,metric,improvement,worsening,inconclusive,not_estimable,comparisons
+BPI20_RequestForPayment_CZ,accuracy,27,32,239,62,360
+BPI20_RequestForPayment_CZ,mae,8,10,72,0,90
+bpi_2012_CZ,accuracy,23,27,50,0,100
+bpi_2012_CZ,mae,9,0,41,0,50
+bpi_2013_CZ,accuracy,9,111,466,19,605
+bpi_2013_CZ,mae,0,0,55,0,55
+sp2020_CZ,accuracy,13,7,42,18,80
+sp2020_CZ,mae,0,0,20,0,20

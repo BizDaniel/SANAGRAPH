@@ -1,0 +1,34 @@
+log,model,excluded_feature,intervention,improvement,worsening,inconclusive,not_estimable,comparisons
+BPI20_RequestForPayment_CZ,Activity_zero,Activity,input_zero,5,9,24,7,45
+BPI20_RequestForPayment_CZ,ablate::case:Activity,case:Activity,attribute_removal,0,2,39,4,45
+BPI20_RequestForPayment_CZ,ablate::case:OrganizationalEntity,case:OrganizationalEntity,attribute_removal,5,5,28,7,45
+BPI20_RequestForPayment_CZ,ablate::case:Project,case:Project,attribute_removal,0,4,34,7,45
+BPI20_RequestForPayment_CZ,ablate::case:RequestedAmount,case:RequestedAmount,attribute_removal,2,6,31,6,45
+BPI20_RequestForPayment_CZ,ablate::case:RfpNumber,case:RfpNumber,attribute_removal,10,4,28,3,45
+BPI20_RequestForPayment_CZ,ablate::case:Task,case:Task,attribute_removal,4,1,33,7,45
+BPI20_RequestForPayment_CZ,ablate::org:resource,org:resource,attribute_removal,2,1,35,7,45
+BPI20_RequestForPayment_CZ,ablate::org:role,org:role,attribute_removal,2,4,32,7,45
+BPI20_RequestForPayment_CZ,ablate::time:timestamp,time:timestamp,attribute_removal,5,6,27,7,45
+bpi_2012_CZ,Activity_zero,Activity,input_zero,2,13,10,0,25
+bpi_2012_CZ,ablate::(case) AMOUNT_REQ,(case) AMOUNT_REQ,attribute_removal,23,0,2,0,25
+bpi_2012_CZ,ablate::concept:name,concept:name,attribute_removal,2,3,20,0,25
+bpi_2012_CZ,ablate::lifecycle:transition,lifecycle:transition,attribute_removal,0,5,20,0,25
+bpi_2012_CZ,ablate::org:resource,org:resource,attribute_removal,0,6,19,0,25
+bpi_2012_CZ,ablate::time:timestamp,time:timestamp,attribute_removal,5,0,20,0,25
+bpi_2013_CZ,Activity_zero,Activity,input_zero,0,24,31,0,55
+bpi_2013_CZ,ablate::concept:name,concept:name,attribute_removal,1,7,44,3,55
+bpi_2013_CZ,ablate::impact,impact,attribute_removal,0,12,43,0,55
+bpi_2013_CZ,ablate::lifecycle:transition,lifecycle:transition,attribute_removal,2,12,39,2,55
+bpi_2013_CZ,ablate::org:group,org:group,attribute_removal,0,2,51,2,55
+bpi_2013_CZ,ablate::org:resource,org:resource,attribute_removal,3,8,41,3,55
+bpi_2013_CZ,ablate::org:role,org:role,attribute_removal,0,12,41,2,55
+bpi_2013_CZ,ablate::organization country,organization country,attribute_removal,1,5,47,2,55
+bpi_2013_CZ,ablate::organization involved,organization involved,attribute_removal,0,1,54,0,55
+bpi_2013_CZ,ablate::product,product,attribute_removal,2,2,49,2,55
+bpi_2013_CZ,ablate::resource country,resource country,attribute_removal,0,12,41,2,55
+bpi_2013_CZ,ablate::time:timestamp,time:timestamp,attribute_removal,0,14,40,1,55
+sp2020_CZ,Activity_zero,Activity,input_zero,0,2,15,3,20
+sp2020_CZ,ablate::DEVICETYPE,DEVICETYPE,attribute_removal,5,0,10,5,20
+sp2020_CZ,ablate::REPAIR_IN_TIME_5D,REPAIR_IN_TIME_5D,attribute_removal,2,0,16,2,20
+sp2020_CZ,ablate::org:resource,org:resource,attribute_removal,3,5,9,3,20
+sp2020_CZ,ablate::time:timestamp,time:timestamp,attribute_removal,3,0,12,5,20
